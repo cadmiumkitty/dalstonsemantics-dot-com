@@ -1,0 +1,12 @@
+[
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/company/dalstonsemantics",
+    "image": "images/social/linkedin.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/dalstonsemantics",
+    "image": "images/social/twitter.svg"
+  }
+]
