@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="32"
+   width="32"
+   fill="#000000"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 89.6 89.6"
+   id="svg6"
+   sodipodi:docname="favicon-32x32.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="8.73"
+     inkscape:cx="10.309278"
+     inkscape:cy="26.059565"
+     inkscape:window-width="2167"
+     inkscape:window-height="1395"
+     inkscape:window-x="1511"
+     inkscape:window-y="463"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6"
+     width="32px"
+     scale-x="2.7" />
+  <g
+     transform="matrix(1.0418591,0,0,1.0418702,-7.2929614,-999.5313)"
+     id="g4">
+    <path
+       style="color:#000000;text-indent:0;text-transform:none;direction:ltr;baseline-shift:baseline;enable-background:accumulate"
+       d="m 50.109318,976.33198 a 1.0001,1.0001 0 0 0 -0.86,0.4425 l -20.82843,31.05592 -20.0703197,-7.5156 a 1.0001,1.0001 0 0 0 -1.22312,1.4253 l 14.6399997,26.13 a 1.0001,1.0001 0 0 0 0.8725,0.5113 h 54.983124 a 1.0001,1.0001 0 0 0 1.03532,-0.5219 l 14.22,-26.13 a 1.0001,1.0001 0 0 0 -1.22907,-1.4147 l -18.10343,6.7759 -22.66469,-30.35747 a 1.0001,1.0001 0 0 0 -0.771884,-0.40125 z m 0.970634,4.01 20.51531,27.47872 -20.51531,7.6785 z m -2.000004,0.27563 v 34.94879 l -18.73406,-7.0153 z m 40.760314,22.50999 -12.52344,23.0125 -24.47469,-9.1647 z m -79.632504,0.018 62.050004,23.2353 H 23.225888 Z"
+       fill="#000000"
+       fill-opacity="1"
+       fill-rule="evenodd"
+       stroke="none"
+       marker="none"
+       visibility="visible"
+       display="inline"
+       overflow="visible"
+       id="path2" />
+  </g>
+</svg>
