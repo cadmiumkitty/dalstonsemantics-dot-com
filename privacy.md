@@ -22,6 +22,7 @@ Most of the personal information we process is provided to us directly by you fo
 
 We also receive personal information indirectly, from the following sources in the following scenarios:
 * You attended an industry event that we organised or participated in and chose to share your contact details with organisers or participants
+* You tried or bought our application and your contact details were shared with us by the application store
 
 Under the General Data Protection Regulation (GDPR), the lawful bases we rely on for processing this information are:
 * We have a legitimate interest
