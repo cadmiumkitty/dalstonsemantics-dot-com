@@ -28,6 +28,10 @@ Track alignment of governance artefacts to controlled vocabularies, taxonomies a
 
 ![Track Alignment](/images/tfc/hero-track.png)
 
+### Use CQL for reporting and integration
+
+Integrate content using Confluence APIs and SKOS notation such as ANZSIC codes.
+
 ## Solutions
 
 [Talk to us](/contact) about development of enterprise architecture vocabularies and regulatory and compliance taxonomies, and integrating Taxonomies for Confluence into your environment.
