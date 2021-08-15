@@ -18,7 +18,7 @@ We currently collect and process the following information:
 
 Most of the personal information we process is provided to us directly by you for one of the following reasons:
 * You were interested in the services we provide and wanted to receive information about them
-* We entered into contract to provide you with our services
+* We entered into a contract to provide you with our services
 
 We also receive personal information indirectly, from the following sources in the following scenarios:
 * You attended an industry event that we organised or participated in and chose to share your contact details with organisers or participants
