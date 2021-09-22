@@ -14,19 +14,19 @@ Organisations taking on development of enterprise architecture, implementation o
 
 Import SKOS controlled vocabularies, taxonomies and thesauri.
 
-![Import SKOS Taxonomies](/images/tfc/hero-import.png)
+![Import SKOS Taxonomies](/images/tfc/03-imported-taxonomies-expanded.png)
 
 ### Index Confluence pages
 
 Index Confluence pages by selecting concepts from imported SKOS concept schemes.
 
-![Index Confluence Pages](/images/tfc/hero-index.png)
+![Index Confluence Pages](/images/tfc/04-index.png)
 
 ### Track alignment and gaps
 
 Track alignment of governance artefacts to controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards setting organisations.
 
-![Track Alignment](/images/tfc/hero-track.png)
+![Track Alignment](/images/tfc/06-taxonomies-track.png)
 
 ### Use CQL for reporting and integration
 
