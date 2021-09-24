@@ -47,7 +47,7 @@ Under data protection law, you have rights including:
 
 You are not required to pay any charge for exercising your rights. If you make a request, we have one month to respond to you.
 
-Please contact us at [privacy@dalstonsemantics.com](mailto:privacy@dalstonsemantics.com) if you wish to make a request.
+Please contact us at [info@dalstonsemantics.com](mailto:info@dalstonsemantics.com) if you wish to make a request.
 
 ## How to complain
 
