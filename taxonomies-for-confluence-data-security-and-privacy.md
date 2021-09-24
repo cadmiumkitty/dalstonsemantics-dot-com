@@ -5,7 +5,7 @@ layout: page
 
 Last updated: September 24, 2021
 
-Dalston Semantics Ltd ("us", "we", or "our") operates the Taxonomies for Confluence website at https://tfc.dalstonsemantics.com (the "Service").
+Dalston Semantics Ltd ("us", "we", or "our") operates the Taxonomies for Confluence website at [https://tfc.dalstonsemantics.com](https://tfc.dalstonsemantics.com) (the "Service").
 
 This page informs you of our policies regarding the collection, use, disclosure and safeguarding of data when you use the Service.
 
@@ -15,23 +15,33 @@ This page informs you of our policies regarding the collection, use, disclosure 
 
 We do not collect or store any Personal Data when you use the Service.
 
-Audit capabilities in the Service are implemented by storing the Atlassian accountID of the user along with the details of the user action (such as uploading a taxonomy or indexing a Confluence page). To display action history, user details are retrieved from Atlassian, although may be cached in memory by the Service temporarily to improve performance.
+Audit capabilities in the Service are implemented by storing the Atlassian accountID of the user along with the details of the user action (such as importing a taxonomy or indexing a Confluence page). To display action history, user details are retrieved from Atlassian, although may be cached in memory by the Service temporarily to improve performance.
 
 Since we do not collect any Personal Data, we do not share it with third parties.
 
 ### User Content
 
-We use metadata such as characteristics and the number of taxonomies that you upload to improve the Service.
+We use metadata such as characteristics and the number of taxonomies that you import to improve the Service.
 
 ### Automatically Logged Data
 
-The Service collects IP address, date, time, type, size, page address and time it took to process the request, as well as code and size of the response. We use this data to diagnose issues and improve the Service. 
+The Service collects the IP address, date, time, type, size, page address of the request and time it took to process the request. It also collects the response code and size of the response. We use this data to diagnose issues and improve the Service. 
 
 ## Security
 
-We use Microsoft Azure to deliver the Service with Microsoft responsible for securing physical datacenter, network and hosts. For more information on Microsoft Azure see https://www.microsoft.com/en-us/trust-center/compliance/compliance-overview
+We use Microsoft Azure to deliver the Service with Microsoft responsible for securing physical datacenter, network and hosts. For more information on Microsoft Azure compliance see [https://www.microsoft.com/en-us/trust-center/compliance/compliance-overview](https://www.microsoft.com/en-us/trust-center/compliance/compliance-overview)
 
-The Service is using industry-standard encryption to secure data at rest and HTTPS and TLS to secure communication with clients.
+We authenticate and authorise all requests so only you can access the taxonomies that you imported.
+
+We use the Atlassian Connect READ scope for the Service to ensure that in the event of a security breach an attacker can not delete any data you store in Confluence.
+
+We use storage with industry-standard encryption to secure data at rest and further encrypt Atlassian Connect shared secret using industry-standard encryption algorithms and regularly rotated encryption keys.
+
+We use HTTPS and TLS to secure communication with the Service.
+
+A limited number of accounts have access to the production environment to maintain the service and assist customers. These accounts are protected with multi-factor authentication.
+
+We take backups of your data every 24 hours. We use storage with industry-standard encryption to secure backup data.
 
 ## Changes To This Security and Privacy Statement
 
