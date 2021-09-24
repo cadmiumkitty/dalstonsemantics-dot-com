@@ -5,7 +5,7 @@ layout: page
 
 Last updated: September 24, 2021
 
-Dalston Semantics Ltd ("us", "we", or "our") operates the Taxonomies for Confluence website at [https://tfc.dalstonsemantics.com](https://tfc.dalstonsemantics.com) (the "Service").
+Dalston Semantics Ltd ("us", "we", or "our") operates the Taxonomies for Confluence add-on at [https://tfc.dalstonsemantics.com](https://tfc.dalstonsemantics.com) (the "Service").
 
 This page informs you of our policies regarding the collection, use, disclosure and safeguarding of data when you use the Service.
 
