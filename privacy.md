@@ -3,11 +3,11 @@ title: "Dalston Semantics Ltd Privacy Notice"
 layout: page
 ---
 
-13-Aug-2021
+Last updated: 24-Aug-2021
 
 ## Our contact details
 
-Email: [privacy@dalstonsemantics.com](mailto:privacy@dalstonsemantics.com)
+Email: [info@dalstonsemantics.com](mailto:info@dalstonsemantics.com)
 
 ## What type of information we have
 
