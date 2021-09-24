@@ -13,7 +13,7 @@ By accessing or using the Service you agree to be bound by these Terms. If you d
 
 ## User Content
 
-When importing and using taxonomies with the Service, you warrant that you have all necessary rights for their use.
+When importing and using taxonomies with the Service, you warrant that you have all the necessary rights for their use.
 
 ## Intellectual Property
 
