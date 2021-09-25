@@ -3,7 +3,7 @@ title: "Dalston Semantics Ltd Privacy Notice"
 layout: page
 ---
 
-Last updated: 24-Aug-2021
+Last updated: September 25, 2021
 
 ## Our contact details
 

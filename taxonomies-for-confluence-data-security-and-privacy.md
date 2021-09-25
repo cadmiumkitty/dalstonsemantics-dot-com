@@ -3,7 +3,7 @@ title: "Taxonomies for Confluence Data Security and Privacy Statement"
 layout: page
 ---
 
-Last updated: September 24, 2021
+Last updated: September 25, 2021
 
 Dalston Semantics Ltd ("us", "we", or "our") operates the Taxonomies for Confluence add-on at [https://tfc.dalstonsemantics.com](https://tfc.dalstonsemantics.com) (the "Service").
 
@@ -41,7 +41,7 @@ We use HTTPS and TLS to secure communication with the Service.
 
 A limited number of accounts have access to the production environment to maintain the service and assist customers. These accounts are protected with multi-factor authentication.
 
-We take backups of your data every 24 hours. We use storage with industry-standard encryption to secure backup data.
+We take backups of your data every 24 hours and retain it for 30 days. We use storage with industry-standard encryption to secure backup data.
 
 ## Changes To This Security and Privacy Statement
 

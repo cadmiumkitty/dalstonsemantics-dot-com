@@ -3,7 +3,7 @@ title: "Taxonomies for Confluence Terms of Use"
 layout: page
 ---
 
-Last updated: September 24, 2021
+Last updated: September 25, 2021
 
 Please read these Terms of Use ("Terms", "Terms of Use") carefully before using Taxonomies for Confluence add-on at [https://tfc.dalstonsemantics.com](https://tfc.dalstonsemantics.com) (the "Service") operated by Dalston Semantics Ltd ("us", "we", or "our").
 
