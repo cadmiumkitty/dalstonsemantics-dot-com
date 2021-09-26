@@ -40,7 +40,11 @@ Click on the `Subject` byline, search for and click on the concept to index the 
 
 Track alignment of governance artefacts to controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations.
 
-Once Taxonomies for Confluence add-on is installed, new `Taxonomies` item is added to the `Apps` menu. Select `Taxonomies` to navigate to the taxonomies page.
+Once Taxonomies for Confluence add-on is installed, new `Taxonomies` item is added to the `Apps` menu.
+
+![Taxonomies menu item](/images/tfc/05-apps.png)
+
+Select `Taxonomies` to navigate to the taxonomies page.
 
 ![Track Alignment](/images/tfc/06-taxonomies-track.png)
 
