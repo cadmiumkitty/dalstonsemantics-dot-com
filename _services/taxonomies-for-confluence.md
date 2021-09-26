@@ -20,11 +20,11 @@ For example, when developing enterprise architecture you may start with building
 
 ### Import SKOS concept schemes
 
-Once Taxonomies for Confluence add-on is installed, new `Taxonomies` menu is added to the `Settings` page that is available to Confluence administrators. Select `Taxonomies` to navigate to the taxonomies settings page.
+Once Taxonomies for Confluence add-on is installed, new **Taxonomies** menu is added to the **Settings** page that is available to Confluence administrators. Select **Taxonomies** to navigate to the taxonomies settings page.
 
 ![Import SKOS taxonomies](/images/tfc/01-import-taxonomies.png)
 
-To import SKOS vocabulary, taxonomy or thesaurus click `Upload SKOS taxonomy file` button and select the file (right now only [RDF Turtle](https://www.w3.org/TR/turtle/) format is supported). The upload will start automatically once the file is selected. When the upload completes, an updated list of taxonomies is displayed and you can explore their structure by clicking on the expansion button.
+To import SKOS vocabulary, taxonomy or thesaurus click **Upload SKOS taxonomy file** button and select the file (right now only [RDF Turtle](https://www.w3.org/TR/turtle/) format is supported). The upload will start automatically once the file is selected. When the upload completes, an updated list of taxonomies is displayed and you can explore their structure by clicking on the expansion button.
 
 ![Explore SKOS imported taxonomies](/images/tfc/03-imported-taxonomies-expanded.png)
 
@@ -32,7 +32,7 @@ To import SKOS vocabulary, taxonomy or thesaurus click `Upload SKOS taxonomy fil
 
 Index Confluence pages by selecting concepts from imported SKOS concept schemes.
 
-Click on the `Subject` byline, search for and click on the concept to index the page.
+Click on the **Subject** byline, search for and click on the concept to index the page.
 
 ![Index Confluence Pages](/images/tfc/04-index.png)
 
@@ -40,11 +40,11 @@ Click on the `Subject` byline, search for and click on the concept to index the 
 
 Track alignment of governance artefacts to controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations.
 
-Once Taxonomies for Confluence add-on is installed, new `Taxonomies` item is added to the `Apps` menu.
+Once Taxonomies for Confluence add-on is installed, new **Taxonomies** item is added to the **Apps** menu.
 
 ![Taxonomies menu item](/images/tfc/05-apps.png)
 
-Select `Taxonomies` to navigate to the taxonomies page.
+Select **Taxonomies** to navigate to the taxonomies page.
 
 ![Track Alignment](/images/tfc/06-taxonomies-track.png)
 
