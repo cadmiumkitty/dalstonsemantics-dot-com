@@ -8,5 +8,10 @@
     "name": "GitHub",
     "link": "https://github.com/dalstonsemantics",
     "image": "images/social/github.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/dalsemantics",
+    "image": "images/social/twitter.svg"
   }
 ]
