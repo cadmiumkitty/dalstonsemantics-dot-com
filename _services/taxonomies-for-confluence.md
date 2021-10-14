@@ -8,7 +8,7 @@ Increase the value of your investment in [Confluence](https://www.atlassian.com/
 
 ## Challenge
 
-Organisations taking on the development of enterprise architecture, implementation of data governance or regulatory compliance may opt for expensive specialised software and neglect tools such as Atlassian Confluence and Jira that are already in place.
+Organisations taking on the development of enterprise architecture, implementation of data governance or regulatory compliance may opt for expensive specialised software and neglect tools such as Atlassian Confluence and Jira that they already have in place.
 
 ## Taxonomies for Confluence
 
@@ -16,43 +16,79 @@ Organisations taking on the development of enterprise architecture, implementati
 
 Start with the development or adoption of an existing controlled vocabulary, taxonomy or thesaurus using SKOS.
 
-For example, when developing enterprise architecture you may start with building a common vocabulary of terms such Business Capability and Business Service (here's [TOGAF 9.2 terms](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology) as an inspiration) and developing a taxonomy of business capabilities of your organisation (here's an example of [Investment Management Capabilities](https://github.com/cadmiumkitty/imc-taxonomy)). Similarly, you can build taxonomies from regulatory rulebooks when working on compliance projects (here's [taxonomy derived from APRA CPG 235 - Managing Data Risk](https://github.com/cadmiumkitty/cpg235-taxonomy)).
+For example, when developing enterprise architecture you may start with building a common vocabulary of terms such as Business Capability and Business Service (here's [TOGAF 9.2 terms](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology) as an inspiration) and developing a taxonomy of business capabilities of your organisation (here's an example of [Investment Management Capabilities](https://github.com/cadmiumkitty/imc-taxonomy)). Similarly, you can build taxonomies from regulatory rulebooks when working on compliance projects (here's [taxonomy derived from APRA CPG 235 - Managing Data Risk](https://github.com/cadmiumkitty/cpg235-taxonomy)).
 
 ### Import SKOS concept schemes
 
-Once Taxonomies for Confluence add-on is installed, new **Taxonomies** menu is added to the **Settings** page that is available to Confluence administrators. Select **Taxonomies** to navigate to the taxonomies settings page.
+Once Taxonomies for Confluence add-on is installed, new **Taxonomies** menu is added to the **Settings** page that is available to Confluence administrators. It lets you import developed or adopted SKOS taxonomies and use them with Confluence.
 
-![Import SKOS taxonomies](/images/tfc/01-import-taxonomies.png)
+Select **Taxonomies** to navigate to the taxonomies settings page.
 
-To import SKOS vocabulary, taxonomy or thesaurus click **Upload SKOS taxonomy file** button and select the file (right now only [RDF Turtle](https://www.w3.org/TR/turtle/) format is supported). The upload will start automatically once the file is selected. When the upload completes, an updated list of taxonomies is displayed and you can explore their structure by clicking on the expansion button.
+![Import SKOS taxonomies](/images/tfc/1.png)
 
-![Explore SKOS imported taxonomies](/images/tfc/03-imported-taxonomies-expanded.png)
+To import SKOS vocabulary, taxonomy or thesaurus click **Upload SKOS taxonomy file** button and select the file (right now only [RDF Turtle](https://www.w3.org/TR/turtle/) format is supported). The upload will start automatically once the file is selected. When the upload completes, an updated list of taxonomies is displayed, and you can explore their structure by clicking on the expansion button.
+
+![Explore SKOS imported taxonomies](/images/tfc/2.png)
 
 ### Index Confluence pages
 
-Index Confluence pages by selecting concepts from imported SKOS concept schemes.
+Once Taxonomies for Confluence add-on is installed, new **Subject** byline and **Related Concept** macro are made available to Confluence users. It lets you index Confluence pages and blog posts using imported SKOS concepts and track their alignment to imported taxonomies.
+
+#### Selecting SKOS concept as the subject of a page or a blog post
 
 Click on the **Subject** byline, search for and click on the concept to index the page.
 
-![Index Confluence Pages](/images/tfc/04-index.png)
+![Index Confluence Pages](/images/tfc/6.png)
+
+#### Inserting related SKOS concept into a page or a blog post
+
+Start typing `/related` anywhere in the body of the page and pick **Related Concept** from the pop-up Macro menu. Alternatively, click `+` icon in the editor menu and pick **Related Concept** from the Macro menu at the top.
+
+![Index Confluence Pages](/images/tfc/7.png)
+
+Search for the concept to insert and select the concept from the search results.
+
+![Index Confluence Pages](/images/tfc/11.png)
+
+Click **Insert** to insert the relation.
+
+![Index Confluence Pages](/images/tfc/13.png)
 
 ### Track alignment and gaps
 
-Track alignment of governance artefacts to controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations.
+Once Taxonomies for Confluence add-on is installed, the new **Taxonomies** App and **About and Related** macro are made available to Confluence users. They let you track the alignment of Confluence pages and blog posts to controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations.
 
-Once Taxonomies for Confluence add-on is installed, new **Taxonomies** item is added to the **Apps** menu.
+#### Navigating taxonomies
 
-![Taxonomies menu item](/images/tfc/05-apps.png)
+Select **Taxonomies** item from the **Apps** menu to navigate to the taxonomies page.
 
-Select **Taxonomies** to navigate to the taxonomies page.
+![Taxonomies menu item](/images/tfc/22.png)
 
-![Track Alignment](/images/tfc/06-taxonomies-track.png)
+Expand concepts to see narrower concepts or pages and blog posts that are about or related to these concepts.
+
+![Track Alignment](/images/tfc/23.png)
+
+#### Inserting table of contents that are about or related to taxonomy concepts
+
+Start typing `/about` anywhere in the body of the page where you want to insert the table of contents and pick **About and Related** from the pop-up Macro menu. Alternatively, click `+` icon in the editor menu and pick **About and Related** from the Macro menu at the top.
+
+![Insert Table of Contents](/images/tfc/14.png)
+
+Build a set of criteria for pages and blog posts to be included in the table of contents by selecting whether a concept is a subject or a relation of a page or blog post, and specifying whether narrower concepts need to be included.
+
+![Insert Table of Contents](/images/tfc/16.png)
+
+For example, if you imported [TOGAF 9.2](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology) and [CPG 235](https://github.com/cadmiumkitty/cpg235-taxonomy) taxonomies and indexed Confluence pages with concepts from these taxonomies, creating the table of contents that includes pages about Roles related to Data Quality requires the following set of criteria:
+
+![Insert Table of Contents](/images/tfc/19.png)
+
+Click **Insert** to insert the table of contents.
+
+![Insert Table of Contents](/images/tfc/21.png)
 
 ### Use CQL for reporting and integration
 
-Once Taxonomies for Confluence add-on is installed, three additional properties become available in Confluence pages and blog posts: `subjectUri` (populated with the URI of SKOS concept), `subjectPrefLabel` (populated from `skos:prefLabel`) and `subjectNotation` (populated from `skos:notation`).
-
-Use these properties in CQL queries to integrate content or implement reporting using Confluence APIs.
+Once Taxonomies for Confluence add-on is installed, three additional properties become available in Confluence pages and blog posts: `subjectUri` (populated with the URI of SKOS concept), `subjectPrefLabel` (populated from `skos:prefLabel`) and `subjectNotation` (populated from `skos:notation`). These properties can be used in CQL queries allowing you to integrate content or implement reporting using Confluence APIs.
 
 For example, you can use [ANZSIC](https://www.abs.gov.au/ausstats/abs@.nsf/Latestproducts/1292.0Search12006%20(Revision%202.0)) codes in CQL search.
 
