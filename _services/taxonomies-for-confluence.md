@@ -26,7 +26,7 @@ Select **Taxonomies** to navigate to the taxonomies settings page.
 
 ![Import SKOS taxonomies](/images/tfc/1.png)
 
-To import SKOS vocabulary, taxonomy or thesaurus click **Upload SKOS taxonomy file** button and select the file (right now only [RDF Turtle](https://www.w3.org/TR/turtle/) format is supported). The upload will start automatically once the file is selected. When the upload completes, an updated list of taxonomies is displayed, and you can explore their structure by clicking on the expansion button.
+To import SKOS vocabulary, taxonomy or thesaurus click **Upload SKOS taxonomy file** button and select the file. [RDF/XML](http://www.w3.org/TR/rdf-syntax-grammar/), [N-Triples](http://www.w3.org/TR/n-triples/), [Turtle](https://www.w3.org/TR/turtle/), Turtle-star, [N3/Notation3](http://www.w3.org/TeamSubmission/n3/), [TriX](http://swdev.nokia.com/trix/), [TriG](http://www.w3.org/TR/trig/), TriG-star, [binary RDF](http://rivuli-development.com/2011/11/binary-rdf-in-sesame/), [N-Quads](http://www.w3.org/TR/n-quads/), [JSON-LD](http://www.w3.org/TR/json-ld/), [RDF/JSON](http://www.w3.org/TR/rdf-json/), [RDFa](http://www.w3.org/TR/rdfa-syntax/) and [HDT](http://www.rdfhdt.org/hdt-binary-format/) formats are supported detected from the file extension. The upload will start automatically once the file is selected. When the upload completes, an updated list of taxonomies is displayed, and you can explore their structure by clicking on the expansion button.
 
 ![Explore SKOS imported taxonomies](/images/tfc/2.png)
 
