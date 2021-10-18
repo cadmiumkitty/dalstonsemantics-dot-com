@@ -50,7 +50,7 @@ Search for the concept to insert and select the concept from the search results.
 
 ![Index Confluence Pages](/images/tfc/11.png)
 
-Click **Insert** to insert the relation.
+Click **Insert** to insert the relation. Once relation is inserted, the URI of the concept, `skos:prefLabel`, `skos:altLabel` and `skos:notation` can be used in Confluence search.
 
 ![Index Confluence Pages](/images/tfc/13.png)
 
