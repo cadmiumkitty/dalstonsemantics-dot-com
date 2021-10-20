@@ -1,6 +1,6 @@
 ---
 title: "Dalston Semantics Ltd Privacy Notice"
-description: "Privacy Notice outling the type of information we have, how we get it, what we do with it, how it is stored and what data protection rights you have."
+description: "Privacy Notice outlining the type of information we have, how we get it, what we do with it, how it is stored and what data protection rights you have."
 layout: page
 ---
 

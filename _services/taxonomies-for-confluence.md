@@ -25,11 +25,11 @@ Once Taxonomies for Confluence add-on is installed, new **Taxonomies** menu is a
 
 Select **Taxonomies** to navigate to the taxonomies settings page.
 
-![Import SKOS taxonomies](/images/tfc/1.png)
+![Import SKOS taxonomies](/images/tfc/1.png "When no taxonomies are imported, a prompt to import a taxonomy is displayed.")
 
-To import SKOS vocabulary, taxonomy or thesaurus click **Upload SKOS taxonomy file** button and select the file. [RDF/XML](http://www.w3.org/TR/rdf-syntax-grammar/), [N-Triples](http://www.w3.org/TR/n-triples/), [Turtle](https://www.w3.org/TR/turtle/), Turtle-star, [N3/Notation3](http://www.w3.org/TeamSubmission/n3/), [TriX](http://swdev.nokia.com/trix/), [TriG](http://www.w3.org/TR/trig/), TriG-star, [binary RDF](http://rivuli-development.com/2011/11/binary-rdf-in-sesame/), [N-Quads](http://www.w3.org/TR/n-quads/), [JSON-LD](http://www.w3.org/TR/json-ld/), [RDF/JSON](http://www.w3.org/TR/rdf-json/), [RDFa](http://www.w3.org/TR/rdfa-syntax/) and [HDT](http://www.rdfhdt.org/hdt-binary-format/) formats are supported detected from the file extension. The upload will start automatically once the file is selected. When the upload completes, an updated list of taxonomies is displayed, and you can explore their structure by clicking on the expansion button.
+To import SKOS vocabulary, taxonomy or thesaurus click **Upload SKOS taxonomy file** button and select the file. [RDF/XML](http://www.w3.org/TR/rdf-syntax-grammar/), [N-Triples](http://www.w3.org/TR/n-triples/), [Turtle](https://www.w3.org/TR/turtle/), Turtle-star, [N3/Notation3](http://www.w3.org/TeamSubmission/n3/), [TriX](http://swdev.nokia.com/trix/), [TriG](http://www.w3.org/TR/trig/), TriG-star, [binary RDF](http://rivuli-development.com/2011/11/binary-rdf-in-sesame/), [N-Quads](http://www.w3.org/TR/n-quads/), [JSON-LD](http://www.w3.org/TR/json-ld/), [RDF/JSON](http://www.w3.org/TR/rdf-json/), [RDFa](http://www.w3.org/TR/rdfa-syntax/) and [HDT](http://www.rdfhdt.org/hdt-binary-format/) formats are supported detected from the file extension. The upload will start automatically once the file is selected. When the upload completes, an updated list of taxonomies is displayed. You can explore their structure by expanding concept schemes to reveal top concepts, and expanding concepts to reveal narrower concepts and Confluence content.
 
-![Explore SKOS imported taxonomies](/images/tfc/2.png)
+![Explore SKOS imported taxonomies](/images/tfc/2.png "When one or more taxonomies are imported, you can explore their structure by expanding concept schemes to reveal top concepts, and expanding concepts to reveal narrower concepts and Confluence content.")
 
 ### Index Confluence pages
 
@@ -39,21 +39,21 @@ Once Taxonomies for Confluence add-on is installed, new **Subject** byline and *
 
 Click on the **Subject** byline, search for and click on the concept to index the page.
 
-![Index Confluence Pages](/images/tfc/6.png)
+![Index Confluence Pages](/images/tfc/6.png "Expanded Subject Byline showing concepts matching the search for the role. TOGAF Role concept is selected as the subject of the page.")
 
 #### Inserting related SKOS concept into a page or a blog post
 
 Start typing `/related` anywhere in the body of the page and pick **Related Concept** from the pop-up Macro menu. Alternatively, click `+` icon in the editor menu and pick **Related Concept** from the Macro menu at the top.
 
-![Index Confluence Pages](/images/tfc/7.png)
+![Index Confluence Pages](/images/tfc/7.png "Related Concept macro is being selected from the list of macros.")
 
 Search for the concept to insert and select the concept from the search results.
 
-![Index Confluence Pages](/images/tfc/11.png)
+![Index Confluence Pages](/images/tfc/11.png "Related Concept macro showing concepts matching the search for data quality. APRA CPG 235 Data Quality concept is selected to be inserted into the page.")
 
 Click **Insert** to insert the relation. Once relation is inserted, the URI of the concept, `skos:prefLabel`, `skos:altLabel` and `skos:notation` can be used in Confluence search.
 
-![Index Confluence Pages](/images/tfc/13.png)
+![Index Confluence Pages](/images/tfc/13.png "APRA CPG 235 Data Quality concept is inserted into the Confluence page.")
 
 ### Track alignment and gaps
 
@@ -63,29 +63,29 @@ Once Taxonomies for Confluence add-on is installed, the new **Taxonomies** App a
 
 Select **Taxonomies** item from the **Apps** menu to navigate to the taxonomies page.
 
-![Taxonomies menu item](/images/tfc/22.png)
+![Taxonomies menu item](/images/tfc/22.png "Taxonomies item is being selected from the Confluence Apps menu.")
 
 Expand concepts to see narrower concepts or pages and blog posts that are about or related to these concepts.
 
-![Track Alignment](/images/tfc/23.png)
+![Track Alignment](/images/tfc/23.png "Taxonomies page showing imported SKOS concept schemes. APRA CPG 235 concept scheme is expanded to reveal top concepts, narrower concepts of Data and data risk concept, and narrower concepts and related Confluence content of the Data quality concept.")
 
 #### Inserting table of contents that are about or related to taxonomy concepts
 
 Start typing `/about` anywhere in the body of the page where you want to insert the table of contents and pick **About and Related** from the pop-up Macro menu. Alternatively, click `+` icon in the editor menu and pick **About and Related** from the Macro menu at the top.
 
-![Insert Table of Contents](/images/tfc/14.png)
+![Insert Table of Contents](/images/tfc/14.png "About and Related macro is being selected from the list of macros.")
 
 Build a set of criteria for pages and blog posts to be included in the table of contents by selecting whether a concept is a subject or a relation of a page or blog post, and specifying whether narrower concepts need to be included.
 
-![Insert Table of Contents](/images/tfc/16.png)
+![Insert Table of Contents](/images/tfc/16.png "About and Related macro editor to specify criteria for the table of contents that is about or related to concepts.")
 
 For example, if you imported [TOGAF 9.2](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology) and [CPG 235](https://github.com/cadmiumkitty/cpg235-taxonomy) taxonomies and indexed Confluence pages with concepts from these taxonomies, creating the table of contents that includes pages about Roles related to Data Quality requires the following set of criteria:
 
-![Insert Table of Contents](/images/tfc/19.png)
+![Insert Table of Contents](/images/tfc/19.png "About and Related macro editor with criteria specified to include Confluence pages and blog posts about TOGAF Role concept and related to APRA CPG 235 Data Quality concept.")
 
 Click **Insert** to insert the table of contents.
 
-![Insert Table of Contents](/images/tfc/21.png)
+![Insert Table of Contents](/images/tfc/21.png "Table of Confluence content about TOGAF Role concept and related to APRA CPG 235 Data Quality concept is inserted.")
 
 ### Use CQL for reporting and integration
 

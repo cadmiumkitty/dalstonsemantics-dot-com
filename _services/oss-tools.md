@@ -12,7 +12,7 @@ Reduce costs with cloud deployment of open source alternatives for managing cont
 
 Open source tools for managing controlled vocabularies, taxonomies and thesauri cover a range of capabilities from import of existing vocabularies to identifier management to publication. Many of them were built for government or academic use requiring an understanding of their design to successfully deploy and integrate into corporate environments.
 
-![VocBench](/images/oss/vocbench.png)
+![VocBench](/images/oss/vocbench.png "VocBench 9.1.0 with preloaded taxonomies.")
 
 ## Capabilities of knowledge organisation tools
 
