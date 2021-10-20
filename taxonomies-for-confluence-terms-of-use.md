@@ -1,5 +1,6 @@
 ---
 title: "Taxonomies for Confluence Terms of Use"
+description: "Terms of Use that users should read before using the service."
 layout: page
 ---
 

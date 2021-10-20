@@ -1,5 +1,6 @@
 ---
 title: "Taxonomies for Confluence Data Security and Privacy Statement"
+description: "Data Security and Privacy Statement that outlines the treatment of personal data and user content."
 layout: page
 ---
 

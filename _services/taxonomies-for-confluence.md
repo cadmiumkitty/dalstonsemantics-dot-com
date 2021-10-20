@@ -1,10 +1,11 @@
 ---
 title: "Taxonomies for Confluence"
+description: "Taxonomies for Confluence user guide describing how to import Simple Knowledge Organization System (SKOS) controlled vocabularies, taxonomies and thesauri into Confluence, say what pages are about and related to, and track alignment of Confluence content with capability models, data classifications, control taxonomies and other hierarchies."
 featured: true
 weight: 1
 ---
 
-Increase the value of your investment in [Confluence](https://www.atlassian.com/software/confluence) by using it for enterprise architecture, data governance, regulatory compliance, risk management and more. Import [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations. Index Confluence pages and track alignment and gaps without complex and expensive specialised tools.
+Increase the value of your investment in [Confluence](https://www.atlassian.com/software/confluence) by using it for enterprise architecture, data governance, regulatory compliance, risk management and more. Import [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations. Index Confluence pages and track alignment with capability models, data classifications, control taxonomies and other hierarchies without complex and expensive specialised tools.
 
 ## Challenge
 

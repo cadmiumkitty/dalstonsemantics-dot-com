@@ -1,5 +1,6 @@
 ---
-title: Services
+title: "Services"
+description: "Services provided by Dalston Semantics, including consulting, cloud deployment of open-source knowledge management software and Taxonomies for Confluence add-on development."
 layout: services
 intro_image: "images/illustrations/services.svg"
 intro_image_absolute: true

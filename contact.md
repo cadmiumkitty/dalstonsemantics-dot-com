@@ -1,5 +1,6 @@
 ---
-title: Contact
+title: "Contact"
+description: "Contact information for Dalston Semantics."
 layout: contact
 ---
 
