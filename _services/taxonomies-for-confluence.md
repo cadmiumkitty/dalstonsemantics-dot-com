@@ -13,6 +13,10 @@ Organisations taking on the development of enterprise architecture, implementati
 
 ## Taxonomies for Confluence
 
+### Frequently asked questions
+
+See [Frequently Asked Questions](/taxonomies-for-confluence-faq) for questions about using existing controlled vocabularies, taxonomies and thesauri with Confluence, dealing with several user groups using different terms for the same concept, and implementing faceted classification.
+
 ### Getting started
 
 Start with the development or adoption of an existing controlled vocabulary, taxonomy or thesaurus using SKOS.
@@ -162,10 +166,6 @@ Response:
 ```
 
 The excerpt above is from [Wikipedia BHP](https://en.wikipedia.org/wiki/BHP) article and is used under [Creative Commons Attribution-ShareAlike License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License).
-
-## Frequently asked questions
-
-See [Frequently Asked Questions](/taxonomies-for-confluence-faq) for questions about using existing controlled vocabularies, taxonomies and thesauri with Confluence, dealing with several user groups using different terms for the same concept, and implementing faceted classification.
 
 ## Solutions
 
