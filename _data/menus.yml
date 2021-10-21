@@ -5,6 +5,9 @@ main:
   - name: "Contact"
     url: "/contact/"
     weight: 2
+  - name: "Try Taxonomies for Confluence free"
+    url: "https://marketplace.atlassian.com/apps/1226218/taxonomies-for-confluence"
+    weight: 3
 
 footer:
   - name: "Home"

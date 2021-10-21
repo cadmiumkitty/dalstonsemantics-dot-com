@@ -163,6 +163,10 @@ Response:
 
 The excerpt above is from [Wikipedia BHP](https://en.wikipedia.org/wiki/BHP) article and is used under [Creative Commons Attribution-ShareAlike License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License).
 
+## Frequently asked questions
+
+See [Frequently Asked Questions](/taxonomies-for-confluence-faq) for questions about using existing controlled vocabularies, taxonomies and thesauri with Confluence, dealing with several user groups using different terms for the same concept, and implementing faceted classification.
+
 ## Solutions
 
 [Talk to us](/contact) about the development of enterprise architecture vocabularies and regulatory and compliance taxonomies, and integrating Taxonomies for Confluence into your environment.

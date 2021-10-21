@@ -10,8 +10,8 @@ logo:
 collections:
   services:
     output: true
-  team:
-    output: true
+  faq:
+    output: false
 
 defaults:
   - scope:

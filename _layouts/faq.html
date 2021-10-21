@@ -1,0 +1,43 @@
+---
+layout: default
+bodyClass: "page-basic"
+---
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {% assign weighted_faq = site.faq | sort: "weight" %}
+    {% for faq in weighted_faq %}
+      {
+        "@type": "Question",
+        "name": "{{faq.question}}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{faq.answer}}"
+        }
+      }
+      {% if faq != weighted_faq.last %}
+      ,
+      {% endif %}
+    {% endfor %}    
+    ]
+  }
+</script>
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 class="title">{{page.title}}</h1>
+                <div class="content">{{content}}</div>
+                {% assign weighted_faq = site.faq | sort: "weight" %}
+                {% for faq in weighted_faq %}
+                  <h2>{{faq.question}}</h2>
+                  {{faq.answer}}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
