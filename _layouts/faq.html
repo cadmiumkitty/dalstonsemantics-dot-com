@@ -31,12 +31,14 @@ bodyClass: "page-basic"
         <div class="col-12 col-md-8">
             <div class="service service-single">
                 <h1 class="title">{{page.title}}</h1>
-                <div class="content">{{content}}</div>
-                {% assign weighted_faq = site.faq | sort: "weight" %}
-                {% for faq in weighted_faq %}
-                  <h2>{{faq.question}}</h2>
-                  {{faq.answer}}
-                {% endfor %}
+                <div class="content">
+                  {{content}}
+                  {% assign weighted_faq = site.faq | sort: "weight" %}
+                  {% for faq in weighted_faq %}
+                    <h2>{{faq.question}}</h2>
+                    {{faq.answer}}
+                  {% endfor %}
+              </div>
             </div>
         </div>
     </div>
