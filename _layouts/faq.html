@@ -7,7 +7,7 @@ bodyClass: "page-basic"
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity': [
+    "mainEntity": [
     {% assign weighted_faq = site.faq | sort: "weight" %}
     {% for faq in weighted_faq %}
       {
