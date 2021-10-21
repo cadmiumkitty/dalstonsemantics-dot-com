@@ -5,17 +5,17 @@ bodyClass: "page-basic"
 
 <script type="application/ld+json">
   {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    'mainEntity': [
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity': [
     {% assign weighted_faq = site.faq | sort: "weight" %}
     {% for faq in weighted_faq %}
       {
-        '@type': 'Question',
-        'name': '{{faq.question}}',
-        'acceptedAnswer': {
-          '@type': 'Answer',
-          'text': '{{faq.answer}}'
+        "@type": "Question",
+        "name": "{{faq.question | jsonify}}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{faq.answer | jsonify}}"
         }
       }
       {% if faq != weighted_faq.last %}
