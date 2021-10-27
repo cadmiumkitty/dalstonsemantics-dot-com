@@ -2,7 +2,7 @@
 title: "Open Source Tools"
 description: "Outlines our services related to cloud deployment of open-source tools for managing controlled vocabularies, taxonomies and thesauri."
 featured: true
-weight: 2
+weight: 1
 layout: service
 ---
 
