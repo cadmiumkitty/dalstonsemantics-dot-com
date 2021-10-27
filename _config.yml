@@ -10,8 +10,9 @@ logo:
 collections:
   services:
     output: true
-  faq:
-    output: false
+  faqs:
+    output: true
+    permalink: taxonomies-for-confluence-faq/:slug/
 
 defaults:
   - scope:

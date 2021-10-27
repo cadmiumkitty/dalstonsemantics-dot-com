@@ -8,17 +8,17 @@ bodyClass: "page-basic"
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-    {% assign weighted_faq = site.faq | sort: "weight" %}
-    {% for faq in weighted_faq %}
+    {% assign weighted_faqs = site.faqs | sort: "weight" %}
+    {% for faq in weighted_faqs %}
       {
         "@type": "Question",
-        "name": {{ faq.question | jsonify }},
+        "name": {{ faq.title | jsonify }},
         "acceptedAnswer": {
           "@type": "Answer",
           "text": {{ faq.answer | jsonify }}
         }
       }
-      {% if faq != weighted_faq.last %}
+      {% if faq != weighted_faqs.last %}
       ,
       {% endif %}
     {% endfor %}    
@@ -33,9 +33,9 @@ bodyClass: "page-basic"
                 <h1 class="title">{{page.title}}</h1>
                 <div class="content">
                   {{content}}
-                  {% assign weighted_faq = site.faq | sort: "weight" %}
-                  {% for faq in weighted_faq %}
-                    <h2>{{faq.question}}</h2>
+                  {% assign weighted_faqs = site.faqs | sort: "weight" %}
+                  {% for faq in weighted_faqs %}
+                    <h2><a href="{{ faq.url | relative_url }}">{{ faq.title }}</a></h2>
                     {{faq.answer}}
                   {% endfor %}
               </div>
