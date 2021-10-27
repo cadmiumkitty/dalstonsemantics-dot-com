@@ -15,7 +15,7 @@ bodyClass: "page-basic"
         "name": {{ faq.title | jsonify }},
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": {{ faq.answer | jsonify }}
+          "text": {{ faq.content | strip_newlines | jsonify }}
         }
       }
       {% if faq != weighted_faqs.last %}
@@ -36,7 +36,7 @@ bodyClass: "page-basic"
                   {% assign weighted_faqs = site.faqs | sort: "weight" %}
                   {% for faq in weighted_faqs %}
                     <h2><a href="{{ faq.url | relative_url }}">{{ faq.title }}</a></h2>
-                    {{faq.answer}}
+                    {{faq.content}}
                   {% endfor %}
               </div>
             </div>
