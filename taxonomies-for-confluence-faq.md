@@ -1,5 +1,5 @@
 ---
-title: "Taxonomy for Confluence FAQ"
+title: "Taxonomies for Confluence FAQ"
 description: "Frequently askes questions about use of controlled vocabularies, taxonomies and thesauri with Confluence."
 layout: faqs
 ---
