@@ -4,7 +4,7 @@ description: "Data Security and Privacy Statement that outlines the treatment of
 layout: page
 ---
 
-Last updated: September 25, 2021
+Last updated: December 18, 2021
 
 Dalston Semantics Ltd ("us", "we", or "our") operates the Taxonomies for Confluence add-on at [https://tfc.dalstonsemantics.com](https://tfc.dalstonsemantics.com) (the "Service").
 
@@ -34,7 +34,7 @@ We use Microsoft Azure to deliver the Service with Microsoft responsible for sec
 
 We authenticate and authorise all requests so only you can access the taxonomies that you imported.
 
-We use the Atlassian Connect READ scope for the Service to ensure that in the event of a security breach an attacker can not delete any data you store in Confluence.
+We use the Atlassian Connect READ, WRITE and DELETE scopes for the Service to ensure that in the event of a security breach an attacker can not perform administrative operations in Confluence.
 
 We use storage with industry-standard encryption to secure data at rest and further encrypt Atlassian Connect shared secret using industry-standard encryption algorithms and regularly rotated encryption keys.
 

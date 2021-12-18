@@ -5,7 +5,7 @@ featured: true
 weight: 2
 ---
 
-Increase the value of your investment in [Confluence](https://www.atlassian.com/software/confluence) by using it for enterprise architecture, data governance, regulatory compliance, risk management and more. Import [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations. Index Confluence pages and track alignment with capability models, data classifications, control taxonomies and other hierarchies without complex and expensive specialised tools.
+Increase the value of your investment in [Confluence](https://www.atlassian.com/software/confluence) by using it for enterprise architecture, data governance, regulatory compliance, risk management and more.
 
 ## Challenge
 
@@ -13,13 +13,15 @@ Organisations taking on the development of enterprise architecture, implementati
 
 ## Taxonomies for Confluence
 
+Import [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations. Index Confluence pages and track alignment with capability models, data classifications, control taxonomies and other hierarchies without complex and expensive specialised tools.
+
 ### Frequently asked questions
 
 See [Frequently Asked Questions](/taxonomies-for-confluence-faq) for questions about using existing controlled vocabularies, taxonomies and thesauri with Confluence, dealing with several user groups using different terms for the same concept, and implementing faceted classification.
 
 ### Getting started
 
-Start with the development or adoption of an existing controlled vocabulary, taxonomy or thesaurus using SKOS.
+Start with the development or adoption of an existing controlled vocabulary - dictionary, taxonomy or thesaurus - using SKOS.
 
 For example, when developing enterprise architecture you may start with building a common vocabulary of terms such as Business Capability and Business Service (here's [TOGAF 9.2 terms](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology) as an inspiration) and developing a taxonomy of business capabilities of your organisation (here's an example of [Investment Management Capabilities](https://github.com/cadmiumkitty/imc-taxonomy)). Similarly, you can build taxonomies from regulatory rulebooks when working on compliance projects (here's [taxonomy derived from APRA CPG 235 - Managing Data Risk](https://github.com/cadmiumkitty/cpg235-taxonomy)).
 
@@ -29,11 +31,37 @@ Once Taxonomies for Confluence add-on is installed, new **Taxonomies** menu is a
 
 Select **Taxonomies** to navigate to the taxonomies settings page.
 
-![Import SKOS taxonomies](/images/tfc/1.png "When no taxonomies are imported, a prompt to import a taxonomy is displayed.")
+![Empty taxonomy snapshots](/images/tfc/1-1.png "When no taxonomies are imported, a list of empty taxonomy snapshots is displayed.")
 
-To import SKOS vocabulary, taxonomy or thesaurus click **Upload SKOS taxonomy file** button and select the file. [RDF/XML](http://www.w3.org/TR/rdf-syntax-grammar/), [N-Triples](http://www.w3.org/TR/n-triples/), [Turtle](https://www.w3.org/TR/turtle/), Turtle-star, [N3/Notation3](http://www.w3.org/TeamSubmission/n3/), [TriX](http://swdev.nokia.com/trix/), [TriG](http://www.w3.org/TR/trig/), TriG-star, [binary RDF](http://rivuli-development.com/2011/11/binary-rdf-in-sesame/), [N-Quads](http://www.w3.org/TR/n-quads/), [JSON-LD](http://www.w3.org/TR/json-ld/), [RDF/JSON](http://www.w3.org/TR/rdf-json/), [RDFa](http://www.w3.org/TR/rdfa-syntax/) and [HDT](http://www.rdfhdt.org/hdt-binary-format/) formats are supported detected from the file extension. The upload will start automatically once the file is selected. When the upload completes, an updated list of taxonomies is displayed. You can explore their structure by expanding concept schemes to reveal top concepts, and expanding concepts to reveal narrower concepts and Confluence content.
+To import SKOS controlled vocabulary, select **Upload SKOS taxonomy file to import** from the Actions menu. In the **Upload SKOS taxonomy file** dialog select the file and click **Upload file**. [RDF/XML](http://www.w3.org/TR/rdf-syntax-grammar/), [N-Triples](http://www.w3.org/TR/n-triples/), [Turtle](https://www.w3.org/TR/turtle/), Turtle-star, [N3/Notation3](http://www.w3.org/TeamSubmission/n3/), [TriX](http://swdev.nokia.com/trix/), [TriG](http://www.w3.org/TR/trig/), TriG-star, [binary RDF](http://rivuli-development.com/2011/11/binary-rdf-in-sesame/), [N-Quads](http://www.w3.org/TR/n-quads/), [JSON-LD](http://www.w3.org/TR/json-ld/), [RDF/JSON](http://www.w3.org/TR/rdf-json/), [RDFa](http://www.w3.org/TR/rdfa-syntax/) and [HDT](http://www.rdfhdt.org/hdt-binary-format/) formats are supported detected from the file extension.
 
-![Explore SKOS imported taxonomies](/images/tfc/2.png "When one or more taxonomies are imported, you can explore their structure by expanding concept schemes to reveal top concepts, and expanding concepts to reveal narrower concepts and Confluence content.")
+![Upload SKOS taxonomy file to import](/images/tfc/1-2.png "In the Upload SKOS taxonomy file dialog select the file and click Upload file")
+
+When the upload completes, the difference between draft and current taxonomy snapshots is calculated, and updated statistics are displayed in the taxonomy snapshot table. You can explore the contents of each snapshot by clicking on the corresponding row of the taxonomy snapshot table.
+
+![Explore imported SKOS taxonomies](/images/tfc/1-3.png "When one or more taxonomies are imported, you can explore their structure by expanding concept schemes to reveal top concepts, and expanding concepts to reveal narrower concepts.")
+
+To clear the draft taxonomy snapshot, select **Clear draft snapshot** from the Actions menu. In the **Clear draft snapshot** dialog confirm that you want to clear the draft snapshot. When the request completes, the difference between cleared draft and current taxonomy snapshots is calculated, and updated statistics are displayed in the taxonomy snapshot table.
+
+![Clear draft snapshot](/images/tfc/1-4.png "To clear draft taxonomy snapshot, select Clear draft snapshot from the Actions menu.")
+
+When you are ready to start using the taxonomies in the draft snapshot with Confluence content, select **Start switching to draft snapshot** from the Actions menu. In the **Start switching to draft snapshot** dialog confirm that you want to start switching. When the request completes, the impact on the Confluence content is checked and reported in the taxonomy snapshot table.
+
+![Start switching to draft snapshot](/images/tfc/1-5.png "In the Start switching to draft snapshot dialog confirm that you want to start switching.")
+
+To complete the switch, click **Complete switch** button. In the case of Confluence content impact, the following actions are taken during the switch to update Confluence content.
+
+| SKOS Concept changes      | Confluence content actions |
+| ------------------------- | -------------------------- |
+| Concept is removed | **Subject** Confluence content property is removed, and **Related Concept** macro is replaced with the plain text content of `skos:prefLabel` property of the SKOS Concept. |
+| Concept is removed with replacement Concept specified using `dcterms:replaces` property | **Subject** content property and **Related Concept** macro are updated to reflect URI, `skos:prefLabel`, `skos:altLabel` and `skos:notation` of the replacement SKOS Concept. |
+| Concept preperties such as `skos:prefLabel`, `skos:altLabel` and `skos:notation` are updated | **Subject** content property and **Related Concept** macro are updated to reflect the change in `skos:prefLabel`, `skos:altLabel` and `skos:notation` of the SKOS Concept. |
+
+![Complete switch](/images/tfc/1-6.png "Complete or cancel the switch.")
+
+When the taxonomy snapshot switch and Confluence content migration are complete, the updated statistics are displayed in the taxonomy snapshot table.
+
+![Taxonomy snapshots](/images/tfc/1-7.png "Updated statistics are displayed in the taxonomy snapshot table.")
 
 ### Index Confluence pages
 
