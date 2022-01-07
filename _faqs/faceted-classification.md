@@ -12,3 +12,5 @@ You often need to classify Confluence content along several dimensions. For exam
 * Insert concepts into Confluence pages or blog posts with Related Concept macro - search for Related Concept macro to insert, search for a concept using its preferred or alternative label or the identifier, select the appropriate concept and click Insert.
 * Repeat for each of the classification dimensions.
 * Search for Confluence content and build the table of contents using a combination of these concepts.
+
+![Using Taxonomy for Policy and Data Criticality Taxonomy to manage data quality controls documentation in Confluence](/images/tfc-faq/faceted-classification.png "Using Taxonomy for Policy and Data Criticality Taxonomy to manage data quality controls documentation in Confluence.")
