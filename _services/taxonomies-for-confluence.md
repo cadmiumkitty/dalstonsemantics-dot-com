@@ -1,6 +1,6 @@
 ---
 title: "Taxonomies for Confluence"
-description: "Taxonomies for Confluence user guide describing how to import Simple Knowledge Organization System (SKOS) controlled vocabularies, taxonomies and thesauri into Confluence, say what pages are about and related to, and track alignment of Confluence content with capability models, data classifications, control taxonomies and other hierarchies."
+description: "Taxonomies for Confluence add-on user guide describing how to quickly adapt Confluence to managing enterprise architecture, data governance, regulatory compliance, and risk management documentation by integrating Simple Knowledge Organization System (SKOS) controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies."
 featured: true
 weight: 2
 ---
@@ -9,25 +9,25 @@ Increase the value of your investment in [Confluence](https://www.atlassian.com/
 
 ## Challenge
 
-Organisations taking on the development of enterprise architecture, implementation of data governance or regulatory compliance may opt for expensive specialised software and neglect tools such as Atlassian Confluence and Jira that they already have in place.
+Organizations taking on the development of enterprise architecture or implementation of data governance and regulatory compliance may opt for new and expensive specialized software that requires adoption, neglecting existing tools such as Atlassian Confluence and Jira that are already widely used.
 
 ## Taxonomies for Confluence
 
-Import [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations. Index Confluence pages and track alignment with capability models, data classifications, control taxonomies and other hierarchies without complex and expensive specialised tools.
+Taxonomies for Confluence add-on makes it faster to adapt Confluence to managing enterprise architecture, data governance, regulatory compliance, and risk management documentation. Users can set the page subject, insert references to related concepts into pages and blog posts and track the documentation coverage using controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies. 
 
 ### Frequently asked questions
 
-See [Frequently Asked Questions](/taxonomies-for-confluence-faq) for questions about using existing controlled vocabularies, taxonomies and thesauri with Confluence, dealing with several user groups using different terms for the same concept, and implementing faceted classification.
+See [Frequently Asked Questions](/taxonomies-for-confluence-faq) for questions about using existing controlled vocabularies, such as corporate taxonomies, with Confluence, dealing with several user groups using different terms for the same concept, and implementing faceted classification of Confluence pages and blog posts.
 
 ### Getting started
 
-Start with the development or adoption of an existing controlled vocabulary - dictionary, taxonomy or thesaurus - using SKOS.
+Start with the development or adoption of existing controlled vocabularies - dictionaries, taxonomies or thesauri - using [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/).
 
-For example, when developing enterprise architecture you may start with building a common vocabulary of terms such as Business Capability and Business Service (here's [TOGAF 9.2 terms](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology) as an inspiration) and developing a taxonomy of business capabilities of your organisation (here's an example of [Investment Management Capabilities](https://github.com/cadmiumkitty/imc-taxonomy)). Similarly, you can build taxonomies from regulatory rulebooks when working on compliance projects (here's [taxonomy derived from APRA CPG 235 - Managing Data Risk](https://github.com/cadmiumkitty/cpg235-taxonomy)).
+For example, when developing an enterprise architecture, you may start with building a common vocabulary of terms such as Business Capability and Business Service (here's [TOGAF 9.2 terms](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology) as an inspiration) and developing a taxonomy of business capabilities of your organization (here's an example of [Investment Management Capabilities](https://github.com/cadmiumkitty/imc-taxonomy)). Similarly, you can build taxonomies from regulatory rulebooks when working on compliance projects (here's [taxonomy derived from APRA CPG 235 - Managing Data Risk](https://github.com/cadmiumkitty/cpg235-taxonomy)).
 
 ### Import SKOS concept schemes
 
-Once Taxonomies for Confluence add-on is installed, new **Taxonomies** menu is added to the **Settings** page that is available to Confluence administrators. It lets you import developed or adopted SKOS taxonomies and use them with Confluence.
+Once the Taxonomies for Confluence add-on is installed, new **Taxonomies** menu is added to the **Settings** page available to Confluence administrators. It lets you import developed or adopted SKOS taxonomies and use them with Confluence.
 
 Select **Taxonomies** to navigate to the taxonomies settings page.
 
@@ -83,13 +83,13 @@ Search for the concept to insert and select the concept from the search results.
 
 ![Index Confluence Pages](/images/tfc/11.png "Related Concept macro showing concepts matching the search for data quality. APRA CPG 235 Data Quality concept is selected to be inserted into the page.")
 
-Click **Insert** to insert the relation. Once relation is inserted, the URI of the concept, `skos:prefLabel`, `skos:altLabel` and `skos:notation` can be used in Confluence search.
+Click **Insert** to insert the relation. Once the relation is inserted, the URI of the concept, `skos:prefLabel`, `skos:altLabel` and `skos:notation` can be used in Confluence search.
 
 ![Index Confluence Pages](/images/tfc/13.png "APRA CPG 235 Data Quality concept is inserted into the Confluence page.")
 
 ### Track alignment and gaps
 
-Once Taxonomies for Confluence add-on is installed, the new **Taxonomies** App and **About and Related** macro are made available to Confluence users. They let you track the alignment of Confluence pages and blog posts to controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organisations.
+Once the Taxonomies for Confluence add-on is installed, the new **Taxonomies** App and **About and Related** macro are made available to Confluence users. They let you track the alignment of Confluence pages and blog posts to controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organizations.
 
 #### Navigating taxonomies
 

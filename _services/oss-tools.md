@@ -14,7 +14,7 @@ Open source tools for managing controlled vocabularies, taxonomies and thesauri 
 
 ![VocBench](/images/oss/vocbench.png "VocBench 9.1.0 with preloaded taxonomies.")
 
-## Capabilities of knowledge organisation tools
+## Capabilities of knowledge organization tools
 
  * Metamodel Management
  * Import
