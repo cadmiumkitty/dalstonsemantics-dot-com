@@ -13,7 +13,7 @@ Organizations taking on the development of enterprise architecture or implementa
 
 ## Taxonomies for Confluence
 
-Taxonomies for Confluence add-on makes it faster to adapt Confluence to managing enterprise architecture, data governance, regulatory compliance, and risk management documentation. Organizations can use existing controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies to implement page classification in Confluence, insert references to related concepts into Confluence pages and blog posts, track the documentation coverage and integrate Confluence content into their knowledge graphs.
+Taxonomies for Confluence add-on makes it faster to adapt Confluence to managing enterprise architecture, data governance, regulatory compliance, and risk management documentation. Organizations can use existing controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies to implement page classification in Confluence, insert references to related concepts into Confluence pages and blog posts, and track the documentation coverage.
 
 ### Frequently asked questions
 
