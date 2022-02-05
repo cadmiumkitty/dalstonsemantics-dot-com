@@ -13,7 +13,7 @@ Organizations taking on the development of enterprise architecture or implementa
 
 ## Taxonomies for Confluence
 
-Taxonomies for Confluence add-on makes it faster to adapt Confluence to managing enterprise architecture, data governance, regulatory compliance, and risk management documentation. Users can set the page subject, insert references to related concepts into pages and blog posts and track the documentation coverage using controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies. 
+Taxonomies for Confluence add-on makes it faster to adapt Confluence to managing enterprise architecture, data governance, regulatory compliance, and risk management documentation. Organizations can use existing controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies to implement page classification in Confluence, insert references to related concepts into Confluence pages and blog posts, track the documentation coverage and integrate Confluence content into their knowledge graphs.
 
 ### Frequently asked questions
 
@@ -37,11 +37,11 @@ To import SKOS controlled vocabulary, select **Upload SKOS taxonomy file to impo
 
 ![Upload SKOS taxonomy file to import](/images/tfc/1-2.png "In the Upload SKOS taxonomy file dialog select the file and click Upload file")
 
-When the upload completes, the difference between draft and current taxonomy snapshots is calculated, and updated statistics are displayed in the taxonomy snapshot table. You can explore the contents of each snapshot by clicking on the corresponding row of the taxonomy snapshot table.
+The difference between draft and current taxonomy snapshots is calculated when the upload completes, and updated statistics are displayed in the taxonomy snapshot table. You can explore the contents of each snapshot by clicking on the corresponding row of the taxonomy snapshot table.
 
 ![Explore imported SKOS taxonomies](/images/tfc/1-3.png "When one or more taxonomies are imported, you can explore their structure by expanding concept schemes to reveal top concepts, and expanding concepts to reveal narrower concepts.")
 
-To clear the draft taxonomy snapshot, select **Clear draft snapshot** from the Actions menu. In the **Clear draft snapshot** dialog confirm that you want to clear the draft snapshot. When the request completes, the difference between cleared draft and current taxonomy snapshots is calculated, and updated statistics are displayed in the taxonomy snapshot table.
+To clear the draft taxonomy snapshot, select **Clear draft snapshot** from the Actions menu. In the **Clear draft snapshot** dialog, confirm that you want to clear the draft snapshot. When the request completes, the difference between cleared draft and current taxonomy snapshots is calculated, and updated statistics are displayed in the taxonomy snapshot table.
 
 ![Clear draft snapshot](/images/tfc/1-4.png "To clear draft taxonomy snapshot, select Clear draft snapshot from the Actions menu.")
 
@@ -49,7 +49,7 @@ When you are ready to start using the taxonomies in the draft snapshot with Conf
 
 ![Start switching to draft snapshot](/images/tfc/1-5.png "In the Start switching to draft snapshot dialog confirm that you want to start switching.")
 
-To complete the switch, click **Complete switch** button. In the case of Confluence content impact, the following actions are taken during the switch to update Confluence content.
+To complete the switch, click the **Complete switch** button. In the case of Confluence content impact, the following actions are taken during the switch to update Confluence content.
 
 | SKOS Concept changes      | Confluence content actions |
 | ------------------------- | -------------------------- |
@@ -89,7 +89,7 @@ Click **Insert** to insert the relation. Once the relation is inserted, the URI 
 
 ### Track alignment and gaps
 
-Once the Taxonomies for Confluence add-on is installed, the new **Taxonomies** App and **About and Related** macro are made available to Confluence users. They let you track the alignment of Confluence pages and blog posts to controlled vocabularies, taxonomies and thesauri developed internally, by regulators or standards-setting organizations.
+Once the Taxonomies for Confluence add-on is installed, the new **Taxonomies** App and **About and Related** macro are made available to Confluence users. They let you track the alignment of Confluence pages and blog posts to controlled vocabularies - dictionaries, taxonomies and thesauri - developed internally, by regulators or standards-setting organizations.
 
 #### Navigating taxonomies
 
