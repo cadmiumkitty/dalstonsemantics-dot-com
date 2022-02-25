@@ -51,13 +51,13 @@ Taxonomies currently included in catalog:
  1. [TOGAF® 9.2 Architecture Repository Document Types Taxonomy](https://github.com/cadmiumkitty/togaf-architecture-repository-document-types-taxonomy)
  1. [TOGAF® 9.2 Content Metamodel Vocabulary](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology)
 
-![Import SKOS taxonomies from catalog](/images/tfc/2-0-0-2.png "In the Import SKOS taxonomies from catalog dialog select the taxonomies file and click Import selected taxonomies")
+![Import SKOS taxonomies from catalog](/images/tfc/2-0-0-2.png "In the Import SKOS taxonomies from catalog dialog select the taxonomies file and click Import selected taxonomies.")
 
 ##### Importing SKOS taxonomies from file
 
 To import SKOS taxonomies from file, select **Import SKOS taxonomies from file** from the Actions menu. In the **Import SKOS taxonomies from file** dialog select the file and click **Upload and import file**. [RDF/XML](http://www.w3.org/TR/rdf-syntax-grammar/), [N-Triples](http://www.w3.org/TR/n-triples/), [Turtle](https://www.w3.org/TR/turtle/), Turtle-star, [N3/Notation3](http://www.w3.org/TeamSubmission/n3/), [TriX](http://swdev.nokia.com/trix/), [TriG](http://www.w3.org/TR/trig/), TriG-star, [binary RDF](http://rivuli-development.com/2011/11/binary-rdf-in-sesame/), [N-Quads](http://www.w3.org/TR/n-quads/), [JSON-LD](http://www.w3.org/TR/json-ld/), [RDF/JSON](http://www.w3.org/TR/rdf-json/), [RDFa](http://www.w3.org/TR/rdfa-syntax/) and [HDT](http://www.rdfhdt.org/hdt-binary-format/) formats are supported detected from the file extension.
 
-![Import SKOS taxonomies from file](/images/tfc/2-0-0-3.png "In the Import SKOS taxonomies from file dialog select the file and click Upload and import file")
+![Import SKOS taxonomies from file](/images/tfc/2-0-0-3.png "In the Import SKOS taxonomies from file dialog select the file and click Upload and import file.")
 
 ##### Managing taxonomy snapshots
 
@@ -67,7 +67,7 @@ The difference between draft and current taxonomy snapshots is calculated when t
 
 To clear the draft taxonomy snapshot, select **Clear draft snapshot** from the Actions menu. In the **Clear draft snapshot** dialog, confirm that you want to clear the draft snapshot. When the request completes, the difference between cleared draft and current taxonomy snapshots is calculated, and updated statistics are displayed in the taxonomy snapshot table.
 
-![Clear draft snapshot](/images/tfc/2-0-0-5.png "To clear draft taxonomy snapshot, select Clear draft snapshot from the Actions menu.")
+![Clear draft snapshot](/images/tfc/2-0-0-5.png "To clear the draft taxonomy snapshot, select Clear draft snapshot from the Actions menu.")
 
 When you are ready to start using the taxonomies in the draft snapshot with Confluence content, select **Start switching to draft snapshot** from the Actions menu. In the **Start switching to draft snapshot** dialog confirm that you want to start switching. When the request completes, the impact on the Confluence content is checked and reported in the taxonomy snapshot table.
 
@@ -81,7 +81,7 @@ To complete the switch, click the **Complete switch** button. In the case of Con
 | Concept is removed with replacement Concept specified using `dcterms:replaces` property | **Type** and **Subject** content property and **Related Concept** macro are updated to reflect URI, `skos:prefLabel`, `skos:altLabel` and `skos:notation` of the replacement SKOS Concept. |
 | Concept preperties such as `skos:prefLabel`, `skos:altLabel` and `skos:notation` are updated | **Type** and **Subject** content property and **Related Concept** macro are updated to reflect the change in `skos:prefLabel`, `skos:altLabel` and `skos:notation` of the SKOS Concept. |
 
-![Complete switch](/images/tfc/2-0-0-7.png "Complete or cancel the switch.")
+![Complete switch](/images/tfc/2-0-0-7.png "Complete or cancel the switch to the draft snapshot.")
 
 When the taxonomy snapshot switch and Confluence content migration are complete, the updated statistics are displayed in the taxonomy snapshot table.
 
