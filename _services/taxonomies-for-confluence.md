@@ -4,7 +4,7 @@ description: "Taxonomies for Confluence add-on user guide. Quickly adapt Conflue
 featured: true
 weight: 2
 ---
-Classify [Confluence](https://www.atlassian.com/software/confluence) pages and integrate [Confluence](https://www.atlassian.com/software/confluence) into knowledge graphs.
+Classify [Confluence](https://www.atlassian.com/software/confluence) pages and integrate Confluence into knowledge graphs.
 
 ## Challenge
 
