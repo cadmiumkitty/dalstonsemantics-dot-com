@@ -1,6 +1,6 @@
 ---
 title: "Taxonomies for Confluence"
-description: "Taxonomies for Confluence add-on user guide describing how to quickly adapt Confluence to managing enterprise architecture, data governance, regulatory compliance, and risk management documentation by integrating Simple Knowledge Organization System (SKOS) controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies."
+description: "Taxonomies for Confluence add-on user guide describing how to quickly adapt Confluence to managing software development lifecycle, enterprise architecture, data governance, regulatory compliance, and risk management documentation. Taxonomies for Confluence add-on lets organizations: classify Confluence pages and blog posts by setting their type, subject and related concepts; use existing controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies for page and blog post classification; build tables of contents using type, subject and related concepts; improve search by using preferred and alternative concept labels to search for Confluence content; track documentation coverage; integrate Confluence into knowledge graphs by linking information assets across several systems using structured data and SPARQL federated queries."
 featured: true
 weight: 2
 ---
@@ -15,12 +15,12 @@ Organizations taking on the development of enterprise architecture or implementa
 
 Taxonomies for Confluence add-on makes it faster to adapt Confluence to managing software development lifecycle, enterprise architecture, data governance, regulatory compliance, and risk management documentation. It lets organisations:
 
- * Classify Confluence pages and blog posts by specifying their type, subject and related concepts
+ * Classify Confluence pages and blog posts by setting their type, subject and related concepts
  * Use existing controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies for page and blog post classification
  * Build tables of contents using type, subject and related concepts
  * Improve search by using preferred and alternative concept labels to search for Confluence content
  * Track documentation coverage
- * Link information assets across several systems using structured data and SPARQL federated queries
+ * Integrate Confluence into knowledge graphs by linking information assets across several systems using structured data and SPARQL federated queries
 
 ### Frequently asked questions
 
@@ -89,27 +89,27 @@ When the taxonomy snapshot switch and Confluence content migration are complete,
 
 ### Classify Confluence pages
 
-Once Taxonomies for Confluence add-on is installed, new **Type** and **Subject** bylines and **Related Concept** macro are made available to Confluence users. It lets you classify Confluence pages and blog posts using imported SKOS concepts and track their alignment to imported taxonomies.
+Once Taxonomies for Confluence add-on is installed, new **Type** and **Subject** bylines and **Related Concept** macro are made available to Confluence users. It enables classification of Confluence pages and blog posts using concepts from imported SKOS taxonomies.
 
-#### Selecting SKOS concept as the type of the page or a blog post
+#### Setting SKOS concept as the type of the page or a blog post
 
-Click on the **Type** byline, search for and click on the concept corresponding to the type of the page (e.g. role description, performance requirements).
+To classify Confluence page or blog post by type, click on the **Type** byline, search for and click on the concept corresponding to the type of the page (e.g. role description, performance requirements).
 
 ![Index Confluence Pages](/images/tfc/2-0-0-9.png "Expanded Type Byline showing concepts matching the search for the role. TOGAF Role concept is selected as the type of the page.")
 
-#### Selecting SKOS concept as the subject of the page or a blog post
+#### Setting SKOS concept as the subject of the page or a blog post
 
-Click on the **Subject** byline, search for and click on the concept to corresponding to the subject of the page (e.g. regulatory requirement, capability, service, system)
+To classify Confluence page or blog post by subject, click on the **Subject** byline, search for and click on the concept corresponding to the subject of the page (e.g. regulatory requirement, capability, service, system).
 
 ![Index Confluence Pages](/images/tfc/2-0-0-10.png "Expanded Subject Byline showing concepts matching the search for the data-specific roles. APRA CPG 235 guidance to define data-specific roles is selected.")
 
 #### Inserting related SKOS concept into a page or a blog post
 
-Start typing `/related` anywhere in the body of the page and pick **Related Concept** from the pop-up Macro menu. Alternatively, click `+` icon in the editor menu and pick **Related Concept** from the Macro menu at the top.
+To classify Confluence page or blog post by related concepts, start typing `/related` anywhere in the body of the page and pick **Related Concept** from the pop-up Macro menu. Alternatively, click `+` icon in the editor menu and pick **Related Concept** from the Macro menu at the top.
 
 ![Index Confluence Pages](/images/tfc/2-0-0-11.png "Related Concept macro is being selected from the list of macros.")
 
-Search for the concept to insert and select the concept from the search results.
+Search for the related concept (e.g. data criticality classification, industry sector) to insert and select the concept from the search results.
 
 ![Index Confluence Pages](/images/tfc/2-0-0-12.png "Related Concept macro showing concepts matching the search for data quality. APRA CPG 235 Data Quality concept is selected to be inserted into the page.")
 
