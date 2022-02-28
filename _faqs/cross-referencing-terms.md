@@ -1,5 +1,5 @@
 ---
-title: "How to make Confluence pages searchable by both preferred and alternative terms?"
+title: "How to make Confluence pages or blog posts searchable by both preferred and alternative terms?"
 description: "Explains how to make a Confluence page or blog post searchable by preferred and alternative terms or identifiers such as product codes with Taxonomies for Confluence add-on."
 featured: true
 weight: 2

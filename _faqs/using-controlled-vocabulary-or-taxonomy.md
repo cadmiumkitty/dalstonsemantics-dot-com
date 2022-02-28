@@ -1,11 +1,11 @@
 ---
-title: "How to use existing controlled vocabulary, taxonomy or thesaurus with Confluence?"
-description: "Explains how to use Taxonomies for Confluence add-on to reuse existing controlled vocabulary, taxonomy or thesaurus, such as industry classification scheme, to tag and search for Confluence pages and blog posts."
+title: "How to use existing controlled vocabularies - dictionaries, taxonomies or thesauri - with Confluence?"
+description: "Explains how to reuse existing controlled vocabularies such as industry classification schemes, to tag and search for Confluence pages and blog posts."
 weight: 1
 layout: page
 ---
 
-Labels may be suitable in situations where terms evolve quickly, and you are happy to live with the resulting folksonomy. However, in cases where you intend to manage terms tightly, integrate controlled vocabulary - dictionary, taxonomy or thesaurus - with Confluence using [Taxonomies for Confluence](https://marketplace.atlassian.com/apps/1226218/taxonomies-for-confluence) add-on.
+Confluence labels may be suitable in situations where terms evolve quickly, and you are happy to live with the resulting folksonomy. However, in cases where you intend to manage terms tightly, integrate controlled vocabulary - dictionary, taxonomy or thesaurus - with Confluence using [Taxonomies for Confluence](https://marketplace.atlassian.com/apps/1226218/taxonomies-for-confluence) add-on.
 
 * Start with creating or adopting existing dictionary, taxonomy or thesaurus built with [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/).
 * Install [Taxonomies for Confluence](https://marketplace.atlassian.com/apps/1226218/taxonomies-for-confluence) add-on.

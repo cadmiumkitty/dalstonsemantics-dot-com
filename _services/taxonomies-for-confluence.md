@@ -1,11 +1,10 @@
 ---
 title: "Taxonomies for Confluence"
-description: "Taxonomies for Confluence add-on user guide describing how to quickly adapt Confluence to managing software development lifecycle, enterprise architecture, data governance, regulatory compliance, and risk management documentation. Taxonomies for Confluence add-on lets organizations: classify Confluence pages and blog posts by setting their type, subject and related concepts; use existing controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies for page and blog post classification; build tables of contents using type, subject and related concepts; improve search by using preferred and alternative concept labels to search for Confluence content; track documentation coverage; integrate Confluence into knowledge graphs by linking information assets across several systems using structured data and SPARQL federated queries."
+description: "Taxonomies for Confluence add-on user guide. Quickly adapt Confluence to managing software development lifecycle, enterprise architecture, data governance, regulatory compliance, and risk management documentation. Taxonomies for Confluence enables: page classification in Confluence by type, subject and related concepts; use of existing controlled vocabularies and reference data such as capability models, industry classifications, risk and control, or other corporate taxonomies for page classification; creation of tables of contents based on type, subject and related concepts; improved search by using preferred and alternative concept labels to search for Confluence content; tracking of documentation coverage; integration of Confluence into knowledge graphs by linking information assets across several systems using structured data and SPARQL federated queries."
 featured: true
 weight: 2
 ---
-
-Increase the value of your investment in [Confluence](https://www.atlassian.com/software/confluence) by using it for enterprise architecture, data governance, regulatory compliance, risk management and more.
+Classify [Confluence](https://www.atlassian.com/software/confluence) pages and integrate it into knowledge graphs.
 
 ## Challenge
 
@@ -13,14 +12,13 @@ Organizations taking on the development of enterprise architecture or implementa
 
 ## Taxonomies for Confluence
 
-Taxonomies for Confluence add-on makes it faster to adapt Confluence to managing software development lifecycle, enterprise architecture, data governance, regulatory compliance, and risk management documentation. It lets organizations:
-
- * Classify Confluence pages and blog posts by setting their type, subject and related concepts
- * Use existing controlled vocabularies such as capability models, industry classifications, risk and control, or other corporate taxonomies for page and blog post classification
- * Build tables of contents using type, subject and related concepts
- * Improve search by using preferred and alternative concept labels to search for Confluence content
- * Track documentation coverage
- * Integrate Confluence into knowledge graphs by linking information assets across several systems using structured data and SPARQL federated queries
+Taxonomies for Confluence add-on makes it faster to adapt Confluence to managing software development lifecycle, enterprise architecture, data governance, regulatory compliance, and risk management documentation. It enables: 
+ * Page classification in Confluence by type, subject and related concepts
+ * Use of existing controlled vocabularies and reference data such as capability models, industry classifications, risk and control, or other corporate taxonomies for page classification
+ * Tables of contents with type, subject and related concepts
+ * Improved search by using preferred and alternative concept labels to search for Confluence content
+ * Tracking of documentation coverage
+ * Integration of Confluence into knowledge graphs using structured data and SPARQL federated queries.
 
 ### Frequently asked questions
 
@@ -93,19 +91,19 @@ Once Taxonomies for Confluence add-on is installed, new **Type** and **Subject**
 
 #### Page classification using type
 
-To classify Confluence page or blog post by type, click on the **Type** byline, search for and click on the concept corresponding to the type of the page (e.g. role description, performance requirements).
+To classify Confluence page by type, click on the **Type** byline, search for and click on the concept corresponding to the type of the page (e.g. role description, performance requirements).
 
 ![Index Confluence Pages](/images/tfc/2-0-0-9.png "Expanded Type Byline showing concepts matching the search for the role. TOGAF Role concept is selected as the type of the page.")
 
 #### Page classification using subject
 
-To classify Confluence page or blog post by subject, click on the **Subject** byline, search for and click on the concept corresponding to the subject of the page (e.g. regulatory requirement, capability, service, system).
+To classify Confluence page by subject, click on the **Subject** byline, search for and click on the concept corresponding to the subject of the page (e.g. regulatory requirement, capability, service, system).
 
 ![Index Confluence Pages](/images/tfc/2-0-0-10.png "Expanded Subject Byline showing concepts matching the search for the data-specific roles. APRA CPG 235 guidance to define data-specific roles is selected.")
 
 #### Page classification using related concepts
 
-To classify Confluence page or blog post by related concepts, start typing `/related` anywhere in the body of the page and pick **Related Concept** from the pop-up Macro menu. Alternatively, click `+` icon in the editor menu and pick **Related Concept** from the Macro menu at the top.
+To classify Confluence page by related concepts, start typing `/related` anywhere in the body of the page and pick **Related Concept** from the pop-up Macro menu. Alternatively, click `+` icon in the editor menu and pick **Related Concept** from the Macro menu at the top.
 
 ![Index Confluence Pages](/images/tfc/2-0-0-11.png "Related Concept macro is being selected from the list of macros.")
 
@@ -123,7 +121,7 @@ Start typing `/about` anywhere in the body of the page where you want to insert 
 
 ![Insert Table of Contents](/images/tfc/2-0-0-14.png "About and Related macro is being selected from the list of macros.")
 
-Build a set of criteria for pages and blog posts to be included in the table of contents by selecting whether a concept is a type, subject or a relation of a page or blog post, and specifying whether narrower concepts need to be included.
+Build a set of criteria for pages to be included in the table of contents by selecting whether a concept is a type, subject or a relation of a page, and specifying whether narrower concepts need to be included.
 
 For example, if you imported [TOGAF 9.2](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology) and [CPG 235](https://github.com/cadmiumkitty/cpg235-taxonomy) taxonomies and classified Confluence pages using concepts from these taxonomies, creating the table of contents that includes pages that are Role descriptions, are about Data-specific roles and responsibilities and are related to concept of Data quality requires the following set of criteria:
 

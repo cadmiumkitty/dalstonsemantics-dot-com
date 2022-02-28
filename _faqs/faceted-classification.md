@@ -1,5 +1,5 @@
 ---
-title: "How to do faceted classification in Confluence?"
+title: "How to do page classification in Confluence using several dimensions?"
 description: "Explains how to use multiple taxonomy concepts and Taxonomies for Confluence add-on to implement faceted classification for Confluence pages and blog posts."
 weight: 3
 layout: page
