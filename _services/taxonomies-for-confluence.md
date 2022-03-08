@@ -4,6 +4,7 @@ description: "Taxonomies for Confluence add-on user guide. Quickly adapt Conflue
 featured: true
 weight: 2
 ---
+
 Classify [Confluence](https://www.atlassian.com/software/confluence) pages and integrate Confluence into knowledge graphs.
 
 ## Challenge
@@ -77,7 +78,7 @@ To complete the switch, click the **Complete switch** button. In the case of Con
 | ------------------------- | -------------------------- |
 | Concept is removed | **Type** and **Subject** Confluence content property is removed, and **Related Concept** macro is replaced with the plain text content of `skos:prefLabel` property of the SKOS Concept. |
 | Concept is removed with replacement Concept specified using `dcterms:replaces` property | **Type** and **Subject** content property and **Related Concept** macro are updated to reflect URI, `skos:prefLabel`, `skos:altLabel` and `skos:notation` of the replacement SKOS Concept. |
-| Concept preperties such as `skos:prefLabel`, `skos:altLabel` and `skos:notation` are updated | **Type** and **Subject** content property and **Related Concept** macro are updated to reflect the change in `skos:prefLabel`, `skos:altLabel` and `skos:notation` of the SKOS Concept. |
+| Concept properties such as `skos:prefLabel`, `skos:altLabel` and `skos:notation` are updated | **Type** and **Subject** content property and **Related Concept** macro are updated to reflect the change in `skos:prefLabel`, `skos:altLabel` and `skos:notation` of the SKOS Concept. |
 
 ![Complete switch](/images/tfc/2-0-0-7.png "Complete or cancel the switch to the draft snapshot.")
 
