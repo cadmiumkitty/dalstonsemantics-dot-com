@@ -4,7 +4,7 @@ description: "Privacy Notice outlining the type of information we have, how we g
 layout: page
 ---
 
-Last updated: September 25, 2021
+Last updated: March 10, 2022
 
 ## Our contact details
 
@@ -34,7 +34,7 @@ We use the information that you have given us in order to share details about ou
 
 ## How we store your information
 
-Your information is securely stored electronically using industry-standard encrypted storage. We keep contact details for 20 years. We will then dispose your information by deleting electronic records.
+Your information is securely stored electronically using industry-standard security practices. We keep contact details for 20 years. We will then dispose of your information by deleting electronic records.
 
 ## Your data protection rights
 
