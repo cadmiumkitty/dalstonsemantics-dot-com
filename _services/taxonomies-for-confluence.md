@@ -146,11 +146,13 @@ Expand concepts to see narrower concepts or pages and blog posts that are about 
 
 ![Track Alignment](/images/tfc/2-0-0-18.png "Taxonomies page showing imported SKOS concept schemes. APRA CPG 235 concept scheme is expanded to reveal top concepts, narrower concepts of Data and data risk concept, and narrower concepts and related Confluence content of the Data quality concept.")
 
-### Build Knowledge Graph using Confluence content
+### Integrate Confluence into knowledge graphs using SPARQL federation
 
-Use [SPARQL](https://www.w3.org/TR/sparql11-overview/) endpoint (currently in preview) to federate structured data about your content across Confluence and other systems such as [GitHub](https://github.com/) or [Bitbucket](https://bitbucket.org/product). For an example of structured data see [Knowledge Graph Descriptor](https://github.com/cadmiumkitty/kg-file). 
+Use Taxonomies for Confluence [SPARQL](https://www.w3.org/TR/sparql11-overview/) endpoint to federate structured data across Confluence and other sources such as [GitHub](https://github.com/) or [Bitbucket](https://bitbucket.org/product). See [Knowledge Graph Descriptor](https://github.com/cadmiumkitty/kg-file) for a structured data example.
 
 [Contact us](/contact) to request access.
+
+![Federate structured data across several sources with SPARQL](/images/tfc/2-0-0-sparql-federation.png "Federate structured data across several sources with SPARQL.")
 
 ### Use CQL for reporting and integration
 
