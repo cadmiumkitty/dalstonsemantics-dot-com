@@ -1,20 +1,18 @@
 ---
-title: "Open Source Tools"
-description: "Outlines our services related to cloud deployment of open-source tools for managing controlled vocabularies, taxonomies and thesauri."
+title: "Open-Source Tools"
+description: "Reduce costs with cloud deployment of open-source alternatives for managing controlled vocabularies - dictionaries, taxonomies and thesauri."
 featured: true
 weight: 1
 layout: service
 ---
 
-Reduce costs with cloud deployment of open source alternatives for managing controlled vocabularies, taxonomies and thesauri. Use them with existing systems to build enterprise architecture, data governance, regulatory compliance or reference data solutions.
+Reduce costs with cloud deployment of open-source alternatives for managing controlled vocabularies - dictionaries, taxonomies and thesauri.
 
-## Challenges
-
-Open source tools for managing controlled vocabularies, taxonomies and thesauri cover a range of capabilities from import of existing vocabularies to identifier management to publication. Many of them were built for government or academic use requiring an understanding of their design to successfully deploy and integrate into corporate environments.
+Open-source tools for managing controlled vocabularies - dictionaries, taxonomies and thesauri - cover a range of capabilities from import of existing vocabularies to identifier management to publication. Many of them require an understanding of their design to deploy and integrate them into corporate environments.
 
 ![VocBench](/images/oss/vocbench.png "VocBench 9.1.0 with preloaded taxonomies.")
 
-## Capabilities of knowledge organization tools
+## Capabilities of tools to manage controlled vocabularies
 
  * Metamodel Management
  * Import
@@ -33,4 +31,4 @@ Open source tools for managing controlled vocabularies, taxonomies and thesauri 
 
 ## Solutions
 
-[Talk to us](/contact) about using Docker, Kubernetes and Helm to package and deploy open source tools for managing controlled vocabularies, taxonomies and thesauri to Microsoft Azure or other cloud environments.
+[Talk to us](/contact) about using Docker, Kubernetes and Helm to package and deploy open-source tools for managing controlled vocabularies to Microsoft Azure or other cloud environments.

@@ -1,19 +1,17 @@
 ---
 title: "Taxonomies for Confluence"
-description: "Taxonomies for Confluence add-on user guide. Quickly adapt Confluence to managing software development lifecycle, enterprise architecture, data governance, regulatory compliance, and risk management documentation. Taxonomies for Confluence enables: page classification in Confluence by type, subject and related concepts; use of existing controlled vocabularies and reference data such as capability models, industry classifications, risk and control, or other corporate taxonomies for page classification; creation of tables of contents based on type, subject and related concepts; improved search by using preferred and alternative concept labels to search for Confluence content; tracking of documentation coverage; integration of Confluence into knowledge graphs by linking information assets across several systems using structured data and SPARQL federated queries."
+description: "Taxonomies for Confluence add-on user guide. Quickly adapt Confluence to managing software development lifecycle, enterprise architecture, data governance, regulatory compliance, and risk management documentation. Taxonomies for Confluence enables: page classification in Confluence by type, subject and related concepts; use of existing controlled vocabularies and reference data such as capability models, industry classifications, risk and control, or other corporate taxonomies for page classification; creation of tables of contents based on type, subject and related concepts; improved search by using preferred and alternative concept labels to search for Confluence content; tracking of documentation coverage; integration of Confluence into knowledge graphs by linking information assets across several sources using structured data and SPARQL federated queries."
 featured: true
 weight: 2
 ---
 
-Classify [Confluence](https://www.atlassian.com/software/confluence) pages and integrate Confluence into knowledge graphs.
+Classify [Confluence](https://www.atlassian.com/software/confluence) pages using existing controlled vocabularies, improve search, build better tables of contents and integrate Confluence into knowledge graphs.
 
-## Challenge
-
-Organizations taking on the development of enterprise architecture or implementation of data governance and regulatory compliance may opt for new and expensive specialized software that requires adoption, neglecting existing tools such as Atlassian Confluence and Jira that are already widely used.
+Organizations taking on the development of enterprise architecture or implementation of data governance and regulatory compliance may opt for new and expensive specialized documentation management software that requires adoption. They often neglect the existing tools, such as Atlassian Confluence and Jira, already widely used by their teams.
 
 ## Taxonomies for Confluence
 
-Taxonomies for Confluence add-on makes it faster to adapt Confluence to managing software development lifecycle, enterprise architecture, data governance, regulatory compliance, and risk management documentation. It enables: 
+Increase the value of your investment in Confluence by quickly adapting it to software development lifecycle, enterprise architecture, data governance, risk and regulatory compliance documentation management. Taxonomies for Confluence add-on enables: 
  * Page classification in Confluence by type, subject and related concepts
  * Use of existing controlled vocabularies and reference data such as capability models, industry classifications, risk and control, or other corporate taxonomies for page classification
  * Tables of contents with type, subject and related concepts

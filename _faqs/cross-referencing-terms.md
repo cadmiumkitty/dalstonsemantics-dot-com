@@ -1,12 +1,12 @@
 ---
-title: "How to make Confluence pages or blog posts searchable by both preferred and alternative terms?"
+title: "How to make Confluence pages or blog posts searchable by preferred and alternative terms?"
 description: "Explains how to make a Confluence page or blog post searchable by preferred and alternative terms or identifiers such as product codes with Taxonomies for Confluence add-on."
 featured: true
 weight: 2
 layout: page
 ---
 
-In cases where several user groups use different terms to refer to the same concept, adopt controlled vocabulary - dictionary, taxonomy or thesaurus - that includes preferred and alternative labels, and identifiers such as product or industry classification codes. Integrate controlled vocabulary with Confluence using [Taxonomies for Confluence](https://marketplace.atlassian.com/apps/1226218/taxonomies-for-confluence) add-on. Insert concepts into Confluence pages and blog posts to make them searchable by preferred and alternative labels as well as the identifier.
+In cases where several user groups use different terms to refer to the same concept, adopt controlled vocabulary - dictionary, taxonomy or thesaurus - that includes preferred and alternative labels and identifiers such as product or industry classification codes. Integrate controlled vocabulary with Confluence using [Taxonomies for Confluence](https://marketplace.atlassian.com/apps/1226218/taxonomies-for-confluence) add-on. Insert concepts into Confluence pages and blog posts to make them searchable by preferred and alternative labels as well as the identifier.
 
 * Start with creating or adopting existing controlled vocabularies - dictionaries, taxonomies or thesauri - using [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/). 
 * Specify preferred label (`skos:prefLabel`), alternative labels (`skos:altLabel`), and, if needed, common identifiers (`skos:notation`).

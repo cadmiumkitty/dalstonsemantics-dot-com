@@ -1,6 +1,6 @@
 ---
 title: "Dalston Semantics"
-description: "Knowledge management consulting firm focusing on the use of linked data and semantic technologies to improve enterprise architecture development, data governance and regulatory compliance in financial services."
+description: "Сonsulting firm using linked data and semantic technologies to improve software development lifecycle, enterprise architecture, data governance, risk and regulatory compliance documentation management. Developers of Taxonomies for Confluence add-on."
 layout: home
 intro_image: "images/illustrations/home.svg"
 intro_image_absolute: true
@@ -10,4 +10,4 @@ show_call_box: false
 
 # Dalston Semantics
 
-Knowledge management consulting firm. We use linked data and semantic technologies to improve enterprise architecture development, data governance and regulatory compliance in financial services.
+Сonsulting firm using linked data and semantic technologies to improve software development lifecycle, enterprise architecture, data governance, risk and regulatory compliance documentation management. Developers of Taxonomies for Confluence add-on.
