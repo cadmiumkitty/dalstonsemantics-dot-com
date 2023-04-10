@@ -188,7 +188,7 @@ Use Taxonomies for Confluence [SPARQL](https://www.w3.org/TR/sparql11-overview/)
 
 [Contact us](/contact) to request access.
 
-![Federate structured data across several sources with SPARQL](/images/tfc/4-11-50.png "Federate structured data across several sources with SPARQL.")
+![Federate structured data across several sources with SPARQL](/images/tfc/4-11-0-50.png "Federate structured data across several sources with SPARQL.")
 
 ### Use CQL for reporting and integration
 
