@@ -35,7 +35,7 @@ Once the Taxonomies for Confluence add-on is installed, new **Taxonomies** menu 
 
 Select **Taxonomies** to navigate to the taxonomies settings page.
 
-![Empty taxonomy snapshots](/images/tfc/41-0-1.png "When no taxonomies are imported, a list of empty taxonomy snapshots is displayed.")
+![Empty taxonomy snapshots](/images/tfc/41-11-0-1.png "When no taxonomies are imported, a list of empty taxonomy snapshots is displayed.")
 
 ##### Importing SKOS taxonomies from catalog
 
@@ -92,13 +92,13 @@ Once Taxonomies for Confluence add-on is installed, new **Type** and **Subject**
 
 To classify Confluence page by type, click on the **Type** byline, search for and click on the concept corresponding to the type of the page (e.g. role description, performance requirements).
 
-![Index Confluence Pages](/images/tfc/2-0-0-9.png "Expanded Type Byline showing concepts matching the search for the role. TOGAF Role concept is selected as the type of the page.")
+![Index Confluence Pages](/images/tfc/4-11-0-9.png "Expanded Type Byline showing concepts matching the search for the role. TOGAF Role concept is selected as the type of the page.")
 
 #### Page classification using subject
 
 To classify Confluence page by subject, click on the **Subject** byline, search for and click on the concept corresponding to the subject of the page (e.g. regulatory requirement, capability, service, system).
 
-![Index Confluence Pages](/images/tfc/2-0-0-10.png "Expanded Subject Byline showing concepts matching the search for the data-specific roles. APRA CPG 235 guidance to define data-specific roles is selected.")
+![Index Confluence Pages](/images/tfc/4-11-0-10.png "Expanded Subject Byline showing concepts matching the search for the data-specific roles. APRA CPG 235 guidance to define data-specific roles is selected.")
 
 #### Page classification using related concepts
 
