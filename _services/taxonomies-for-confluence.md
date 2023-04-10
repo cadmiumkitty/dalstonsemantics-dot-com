@@ -35,7 +35,7 @@ Once the Taxonomies for Confluence add-on is installed, new **Taxonomies** menu 
 
 Select **Taxonomies** to navigate to the taxonomies settings page.
 
-![Empty taxonomy snapshots](/images/tfc/41-11-0-1.png "When no taxonomies are imported, a list of empty taxonomy snapshots is displayed.")
+![Empty snapshots](/images/tfc/4-11-0-1.png "When no taxonomies are imported, a list of empty snapshots is displayed.")
 
 ##### Importing SKOS taxonomies from catalog
 
@@ -56,17 +56,17 @@ To import SKOS taxonomies from file, select **Import SKOS taxonomies from file**
 
 ![Import SKOS taxonomies from file](/images/tfc/4-11-0-3.png "In the Import SKOS taxonomies from file dialog select the file and click Upload and import file.")
 
-##### Managing taxonomy snapshots
+##### Managing snapshots
 
-The difference between draft and current taxonomy snapshots is calculated when the upload completes, and updated statistics are displayed in the taxonomy snapshot table. You can explore the contents of each snapshot by clicking on the corresponding row of the taxonomy snapshot table.
+The difference between draft and current snapshots is calculated when the upload completes, and updated statistics are displayed in the snapshot table. You can explore the contents of each snapshot by clicking on the corresponding row of the snapshot table.
 
 ![Explore imported SKOS taxonomies](/images/tfc/4-11-0-4.png "When one or more taxonomies are imported, you can explore their structure by expanding concept schemes to reveal top concepts, and expanding concepts to reveal narrower concepts.")
 
-To clear the draft taxonomy snapshot, select **Clear draft snapshot** from the Actions menu. In the **Clear draft snapshot** dialog, confirm that you want to clear the draft snapshot. When the request completes, the difference between cleared draft and current taxonomy snapshots is calculated, and updated statistics are displayed in the taxonomy snapshot table.
+To clear the draft snapshot, select **Clear draft snapshot** from the Actions menu. In the **Clear draft snapshot** dialog, confirm that you want to clear the draft snapshot. When the request completes, the difference between cleared draft and current snapshots is calculated, and updated statistics are displayed in the snapshot table.
 
-![Clear draft snapshot](/images/tfc/4-11-0-5.png "To clear the draft taxonomy snapshot, select Clear draft snapshot from the Actions menu.")
+![Clear draft snapshot](/images/tfc/4-11-0-5.png "To clear the draft snapshot, select Clear draft snapshot from the Actions menu.")
 
-When you are ready to start using the taxonomies in the draft snapshot with Confluence content, select **Start switching to draft snapshot** from the Actions menu. In the **Start switching to draft snapshot** dialog confirm that you want to start switching. When the request completes, the impact on the Confluence content is checked and reported in the taxonomy snapshot table.
+When you are ready to start using the taxonomies in the draft snapshot with Confluence content, select **Start switching to draft snapshot** from the Actions menu. In the **Start switching to draft snapshot** dialog confirm that you want to start switching. When the request completes, the impact on the Confluence content is checked and reported in the snapshot table.
 
 ![Start switching to draft snapshot](/images/tfc/4-11-0-6.png "In the Start switching to draft snapshot dialog confirm that you want to start switching.")
 
@@ -80,9 +80,9 @@ To complete the switch, click the **Complete switch** button. In the case of Con
 
 ![Complete switch](/images/tfc/4-11-0-7.png "Complete or cancel the switch to the draft snapshot.")
 
-When the taxonomy snapshot switch and Confluence content migration are complete, the updated statistics are displayed in the taxonomy snapshot table.
+When the snapshot switch and Confluence content migration are complete, the updated statistics are displayed in the snapshot table.
 
-![Taxonomy snapshots](/images/tfc/4-11-0-8-1.png "Updated statistics are displayed in the taxonomy snapshot table.") 
+![Snapshots](/images/tfc/4-11-0-8-1.png "Updated statistics are displayed in the snapshot table.") 
 
 ### Classify Confluence pages
 
