@@ -17,6 +17,7 @@ Increase the value of your investment in Confluence by quickly adapting it to so
  * Tables of contents with type, subject and related concepts
  * Improved search by using preferred and alternative concept labels to search for Confluence content
  * Tracking of documentation coverage
+ * Using SPARQL to query indexed Confluence content
  * Integration of Confluence into knowledge graphs using structured data and SPARQL federated queries.
 
 ### Frequently asked questions
@@ -39,14 +40,18 @@ Select **Taxonomies** to navigate to the taxonomies settings page.
 
 ##### Importing SKOS taxonomies from catalog
 
-To import open-source SKOS taxonomies from the curated catalog, select **Import SKOS taxonomies from catalog** from the Actions menu. In the **Import SKOS taxonomies from catalog** dialog select the taxonomies file and click **Import selected taxonomies**.
+To import open-source SKOS taxonomies from the curated catalog, select **Import SKOS taxonomies from catalog** from the Actions menu. In the **Import SKOS taxonomies from catalog** dialog select the taxonomies file and click **Import selected**.
 
-Taxonomies currently included in catalog:
+Taxonomies and schemas currently included in catalog:
  1. [Australian and New Zealand Standard Industrial Classification (ANZSIC)](https://github.com/cadmiumkitty/anzsic-taxonomy)
  1. [Taxonomy for Policy](https://github.com/cadmiumkitty/policy-taxonomy)
  1. [Software Development Lifecycle (SDLC) Document Types Taxonomy](https://github.com/cadmiumkitty/sdlc-document-types-taxonomy)
  1. [TOGAF® 9.2 Architecture Repository Document Types Taxonomy](https://github.com/cadmiumkitty/togaf-architecture-repository-document-types-taxonomy)
  1. [TOGAF® 9.2 Content Metamodel Vocabulary](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology)
+ 1. [W3C® RDF Concepts Vocabulary (RDF)](https://www.w3.org/TR/rdf-concepts/)
+ 1. [W3C® RDF Schema Vocabulary (RDFS)](https://www.w3.org/TR/rdf-schema/)
+ 1. [Schema.org](https://schema.org/)
+ 1. [Data Governance Scheme and Taxonomy](https://github.com/cadmiumkitty/data-governance)
 
 ![Import SKOS taxonomies from catalog](/images/tfc/4-11-0-2.png "In the Import SKOS taxonomies from catalog dialog select the taxonomies file and click Import selected taxonomies.")
 
