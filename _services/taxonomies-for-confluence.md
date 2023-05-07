@@ -5,7 +5,7 @@ featured: true
 weight: 2
 ---
 
-Classify [Confluence](https://www.atlassian.com/software/confluence) pages using existing controlled vocabularies, improve search, build better tables of contents and integrate Confluence into knowledge graphs.
+Classify [Confluence](https://www.atlassian.com/software/confluence) pages using existing controlled vocabularies, improve search, build better tables of contents, capture structured data alongside other content and integrate Confluence into knowledge graphs.
 
 Organizations taking on the development of enterprise architecture or implementation of data governance and regulatory compliance may opt for new and expensive specialized documentation management software that requires adoption. They often neglect the existing tools, such as Atlassian Confluence and Jira, already widely used by their teams.
 
@@ -13,7 +13,7 @@ Organizations taking on the development of enterprise architecture or implementa
 
 Increase the value of your investment in Confluence by quickly adapting it to software development lifecycle, enterprise architecture, data governance, risk and regulatory compliance documentation management. Taxonomies for Confluence add-on enables: 
  * Page classification in Confluence by type, subject and related concepts
- * Use of existing controlled vocabularies and reference data such as capability models, industry classifications, risk and control, or other corporate taxonomies for page classification
+ * Use of existing controlled vocabularies and reference data such as capability models, industry classifications, risk and control, or other corporate taxonomies for page classification and to capture structured data alongside other user content
  * Tables of contents with type, subject and related concepts
  * Improved search by using preferred and alternative concept labels to search for Confluence content
  * Tracking of documentation coverage
@@ -170,6 +170,16 @@ Click **Insert** to insert the resource reference.
 When RDFS Properties are placed in the header row of a table, and RDFS Classes, SKOS Concepts or other resources, macros (dates, links and mentions) and text are placed in rows, each row is translated into several RDF Statement about a new resource linked to a page.
 
 ![Table to be translated into RDF Statements](/images/tfc/4-11-0-34.png "Simple data catalog.")
+
+### Using stable identifiers for RDFS statements
+
+Use any link in the first column of the table for stable identifiers that can be referenced from the same or other Confluence pages.
+
+![Table to be translated into RDF Statements with stable identifiers](/images/tfc/4-12-0-34.png "Simple data catalog on a page.")
+
+Other Confluence content such as comments can be used alongside structured data.
+
+![Other Confluence content alongside structured data](/images/tfc/4-12-0-35.png "Simple data catalog on a page with some comments about creating a data catalog.")
 
 ### Querying pages and resources with SPARQL
 
