@@ -197,7 +197,7 @@ Click **Insert** to insert the SPARQL query and view results.
 
 ![SPARQL query results](/images/tfc/4-11-0-42.png "Querying simple data catalog.")
 
-### Support for federated SPARQL queries
+### Federated SPARQL queries
 
 Use `SERVICE` keyword to integrate data across open access or proprietary SPARQL endpoints.
 
@@ -205,7 +205,7 @@ Import schemas such as [schema.org](https://schema.org).
 
 ![Import schemas from catalog](/images/tfc/4-13-001.png "Import schemas such as schema.org and use its terms as a jumping point into knowledge graphs.")
 
-Use default bindings to bring in data into queries. Resource corresponding to the current Confluence page of blog post is bound to `this`.
+Use default bindings to bring data from Confluence into queries. Resource corresponding to the current Confluence page or blog post is bound to `this`.
 
 ![Use this binding](/images/tfc/4-13-002.png "Resource corresponding to the current Confluence page of blog is bound to this.")
 
