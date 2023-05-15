@@ -197,6 +197,22 @@ Click **Insert** to insert the SPARQL query and view results.
 
 ![SPARQL query results](/images/tfc/4-11-0-42.png "Querying simple data catalog.")
 
+### Support for federated SPARQL queries
+
+Use `SERVICE` keyword to integrate data across open access or proprietary SPARQL endpoints.
+
+Import schemas such as [schema.org](https://schema.org).
+
+![Import schemas from catalog](/images/tfc/4-13-001.png "Import schemas such as schema.org and use its terms as a jumping point into knowledge graphs.")
+
+Use default bindings to bring in data into queries. Resource corresponding to the current Confluence page of blog post is bound to `this`.
+
+![Use this binding](/images/tfc/4-13-002.png "Resource corresponding to the current Confluence page of blog is bound to this.")
+
+Bring in results from remote SPARQL endpoints.
+
+![Results rom remote endpoint](/images/tfc/4-13-003.png "UK Land Registry transactions for the postcode.")
+
 ### Integrate Confluence into knowledge graphs using SPARQL federation
 
 Use Taxonomies for Confluence [SPARQL](https://www.w3.org/TR/sparql11-overview/) endpoint to federate structured data across Confluence and other sources such as [GitHub](https://github.com/) or [Bitbucket](https://bitbucket.org/product). See [Knowledge Graph Descriptor](https://github.com/cadmiumkitty/kg-file) for a structured data example.
