@@ -167,9 +167,9 @@ Click **Insert** to insert the resource reference.
 
 #### Creating new statements using RDFS Class
 
-To set [RDFS Class](https://www.w3.org/TR/rdf12-schema/#ch_class) of the page, click on the **Class** byline, search for and click on the RDFS Class corresponding to the class of the page (e.g. Place, Critical Data Element, Data Container, Concept).
+To set [RDFS Class](https://www.w3.org/TR/rdf12-schema/#ch_class) of the page, click on the **Class** byline, search for and click on the RDFS Class corresponding to the class of the page (e.g. Place, Corporation, Critical Data Element, Data Container, Concept).
 
-![Set RDFS Class of the page](/images/tfc/4-14-001.png "Expanded Class Byline showing RDFS Classes matching the search for the Critical Data Element.")
+![Set RDFS Class of the page](/images/tfc/4-14-001.png "Expanded Class Byline showing RDFS Classes matching the search for the Corporation class from Schema.org.")
 
 ### Creating new statements using RDFS and Confluence tables
 
