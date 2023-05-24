@@ -95,13 +95,13 @@ Once Taxonomies for Confluence add-on is installed, new **Type** and **Subject**
 
 #### Page classification using type
 
-To classify Confluence page by type, click on the **Type** byline, search for and click on the concept corresponding to the type of the page (e.g. role description, performance requirements).
+To classify Confluence page by [type](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/type), click on the **Type** byline, search for and click on the concept corresponding to the type of the page (e.g. role description, performance requirements).
 
 ![Index Confluence Pages](/images/tfc/4-11-0-9.png "Expanded Type Byline showing concepts matching the search for the role. TOGAF Role concept is selected as the type of the page.")
 
 #### Page classification using subject
 
-To classify Confluence page by subject, click on the **Subject** byline, search for and click on the concept corresponding to the subject of the page (e.g. regulatory requirement, capability, service, system).
+To classify Confluence page by [subject](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/subject), click on the **Subject** byline, search for and click on the concept corresponding to the subject of the page (e.g. regulatory requirement, capability, service, system).
 
 ![Index Confluence Pages](/images/tfc/4-11-0-10.png "Expanded Subject Byline showing concepts matching the search for the data-specific roles. APRA CPG 235 guidance to define data-specific roles is selected.")
 
@@ -164,6 +164,12 @@ Search for the resource to insert the reference and select the resource from the
 Click **Insert** to insert the resource reference.
 
 ![Table to be translated into RDF Statements about the page](/images/tfc/4-11-0-33.png "Simple System entry to be used in data catalog.")
+
+#### Creating new statements using RDFS Class
+
+To set [RDFS Class](https://www.w3.org/TR/rdf12-schema/#ch_class) of the page, click on the **Class** byline, search for and click on the RDFS Class corresponding to the class of the page (e.g. Place, Critical Data Element, Data Container, Concept).
+
+![Set RDFS Class of the page](/images/tfc/4-14-001.png "Expanded Class Byline showing RDFS Classes matching the search for the Critical Data Element.")
 
 ### Creating new statements using RDFS and Confluence tables
 
