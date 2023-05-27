@@ -14,11 +14,11 @@ Organizations taking on the development of enterprise architecture or implementa
 Increase the value of your investment in Confluence by quickly adapting it to software development lifecycle, enterprise architecture, data governance, risk and regulatory compliance documentation management. Taxonomies for Confluence add-on enables: 
  * Page classification in Confluence by type, subject and related concepts
  * Use of existing controlled vocabularies and reference data such as capability models, industry classifications, risk and control, or other corporate taxonomies for page classification and to capture structured data alongside other user content
- * Tables of contents with type, subject and related concepts
+ * Building of tables of contents with type, subject and related concepts
  * Improved search by using preferred and alternative concept labels to search for Confluence content
  * Tracking of documentation coverage
- * Using SPARQL to query indexed Confluence content
- * Integration of Confluence into knowledge graphs using structured data and SPARQL federated queries.
+ * Using SPARQL to query indexed Confluence content and bring data from external SPARQL endpoints
+ * Integration of Confluence into knowledge graphs using structured data and SPARQL federated queries
 
 ### Frequently asked questions
 
@@ -32,9 +32,9 @@ For example, when developing an enterprise architecture, you may start with buil
 
 ### Import SKOS concept schemes
 
-Once the Taxonomies for Confluence add-on is installed, new **Taxonomies** menu is added to the **Settings** page available to Confluence administrators. It lets you import developed or adopted SKOS taxonomies and use them with Confluence.
+Once the Taxonomies for Confluence add-on is installed, new **Taxonomies and Schemas** menu is added to the **Settings** page available to Confluence administrators. It lets you import SKOS taxonomies and RDFS schemas and use them with Confluence. You must import a SKOS taxonomy or an RDFS schema first.
 
-Select **Taxonomies** to navigate to the taxonomies settings page.
+Select **Taxonomies and Schemas** to navigate to the taxonomies settings page.
 
 ![Empty snapshots](/images/tfc/4-11-0-1.png "When no taxonomies are imported, a list of empty snapshots is displayed.")
 
@@ -55,9 +55,11 @@ Taxonomies and schemas currently included in catalog:
 
 ![Import SKOS taxonomies from catalog](/images/tfc/4-11-0-2.png "In the Import SKOS taxonomies from catalog dialog select the taxonomies file and click Import selected taxonomies.")
 
-##### Importing SKOS taxonomies from file
+##### Importing SKOS taxonomies and RDFS schemas from file
 
 To import SKOS taxonomies from file, select **Import SKOS taxonomies from file** from the Actions menu. In the **Import SKOS taxonomies from file** dialog select the file and click **Upload and import file**. [RDF/XML](http://www.w3.org/TR/rdf-syntax-grammar/), [N-Triples](http://www.w3.org/TR/n-triples/), [Turtle](https://www.w3.org/TR/turtle/), Turtle-star, [N3/Notation3](http://www.w3.org/TeamSubmission/n3/), [TriX](http://swdev.nokia.com/trix/), [TriG](http://www.w3.org/TR/trig/), TriG-star, [binary RDF](http://rivuli-development.com/2011/11/binary-rdf-in-sesame/), [N-Quads](http://www.w3.org/TR/n-quads/), [JSON-LD](http://www.w3.org/TR/json-ld/), [RDF/JSON](http://www.w3.org/TR/rdf-json/), [RDFa](http://www.w3.org/TR/rdfa-syntax/) and [HDT](http://www.rdfhdt.org/hdt-binary-format/) formats are supported detected from the file extension.
+
+The size of the file is currently limited to 10MB regardless of the format.
 
 ![Import SKOS taxonomies from file](/images/tfc/4-11-0-3.png "In the Import SKOS taxonomies from file dialog select the file and click Upload and import file.")
 
