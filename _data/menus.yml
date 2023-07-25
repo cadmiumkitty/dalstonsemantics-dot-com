@@ -8,9 +8,6 @@ main:
   - name: "Taxonomies for Confluence FAQ"
     url: "/taxonomies-for-confluence-faq/"
     weight: 3
-  - name: "Try it free"
-    url: "https://marketplace.atlassian.com/apps/1226218/taxonomies-for-confluence"
-    weight: 4
 
 footer:
   - name: "Home"
