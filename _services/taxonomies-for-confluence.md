@@ -7,7 +7,7 @@ weight: 2
 
 Classify [Confluence](https://www.atlassian.com/software/confluence) pages using existing controlled vocabularies, improve search, build better tables of contents, capture structured data alongside other content and integrate Confluence into knowledge graphs.
 
-> Taxonomies for Confluence is no longer offered for sale on Atlassian Marketplace. We are working on transitioning this project to Open Source.
+> Taxonomies for Confluence is no longer offered for sale on Atlassian Marketplace. Source code is available under MIT license from [Github Taxonomies for Confluence Repository](https://github.com/cadmiumkitty/taxonomies-for-confluence).
 
 Organizations taking on the development of enterprise architecture or implementation of data governance and regulatory compliance may opt for new and expensive specialized documentation management software that requires adoption. They often neglect the existing tools, such as Atlassian Confluence and Jira, already widely used by their teams.
 
